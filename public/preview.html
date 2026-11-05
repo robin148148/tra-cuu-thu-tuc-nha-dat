@@ -634,14 +634,33 @@
 
       async function fetchLiveBrowserRss() {
         const btn = document.getElementById("btn-live-refresh");
-        if (btn) btn.textContent = "Đang quét RSS...";
+        if (btn) btn.textContent = "Đang đồng bộ...";
+        const seen = new Set(legalNews.map(n => n.sourceUrl));
+
+        // 1. Đồng bộ trực tiếp từ GitHub Raw (dữ liệu do GitHub Actions cào lúc 06:00 sáng)
+        try {
+          const ghRes = await fetch("https://raw.githubusercontent.com/robin148148/tra-cuu-thu-tuc-nha-dat/main/data/legal_news.json?t=" + Date.now());
+          if (ghRes.ok) {
+            const ghItems = await ghRes.json();
+            if (Array.isArray(ghItems)) {
+              ghItems.forEach(item => {
+                if (item && item.sourceUrl && !seen.has(item.sourceUrl)) {
+                  seen.add(item.sourceUrl);
+                  legalNews.unshift(item);
+                }
+              });
+              renderNews();
+            }
+          }
+        } catch (e) {}
+
+        // 2. Quét thêm RSS trực tiếp thời gian thực trên trình duyệt
         try {
           const res = await fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://vnexpress.net/rss/phap-luat.rss"));
           if (res.ok) {
             const data = await res.json();
             if (data && Array.isArray(data.items)) {
               const kw = ["đất", "sổ đỏ", "sổ hồng", "thừa kế", "di chúc", "tặng cho", "chuyển nhượng", "nhà", "bất động sản", "thuế", "công chứng", "tranh chấp"];
-              const seen = new Set(legalNews.map(n => n.sourceUrl));
               data.items.forEach((it, idx) => {
                 const text = ((it.title || "") + " " + (it.description || "")).toLowerCase();
                 if (kw.some(k => text.includes(k)) && !seen.has(it.link)) {
@@ -662,7 +681,7 @@
             }
           }
         } catch (e) {
-          // Offline or blocked: keep pre-scraped data
+          // Offline fallback: giữ dữ liệu trong portal-data.js
         } finally {
           if (btn) btn.textContent = "Làm mới trực tiếp";
         }

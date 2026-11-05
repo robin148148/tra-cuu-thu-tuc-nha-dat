@@ -25,6 +25,26 @@ export default function LegalNewsSection({ news }: LegalNewsSectionProps) {
   const refreshLiveNews = async () => {
     setIsRefreshing(true);
     try {
+      // 1. Pull latest daily scraped JSON from GitHub repo
+      const ghRes = await fetch(
+        "https://raw.githubusercontent.com/robin148148/tra-cuu-thu-tuc-nha-dat/main/data/legal_news.json?t=" +
+          Date.now()
+      );
+      if (ghRes.ok) {
+        const ghData = await ghRes.json();
+        if (Array.isArray(ghData) && ghData.length > 0) {
+          setArticles((prev) => {
+            const existingUrls = new Set(prev.map((p) => p.sourceUrl));
+            const newFromGh = ghData.filter(
+              (item: LegalNewsItem) =>
+                item?.sourceUrl && !existingUrls.has(item.sourceUrl)
+            );
+            return [...newFromGh, ...prev];
+          });
+        }
+      }
+
+      // 2. Also fetch live RSS items
       const res = await fetch(
         "https://api.rss2json.com/v1/api.json?rss_url=" +
           encodeURIComponent("https://vnexpress.net/rss/phap-luat.rss")
