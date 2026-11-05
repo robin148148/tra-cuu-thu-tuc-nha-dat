@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TRA CỨU THỦ TỤC NHÀ ĐẤT | Luật Đất Đai 2024</title>
-  <meta name="description" content="Cổng tra cứu thủ tục sang tên Sổ đỏ, thừa kế, tặng cho, cấp đổi Sổ hồng, giải quyết tranh chấp, tính thuế phí tự động và điểm tin pháp luật cập nhật hàng ngày qua GitHub Actions." />
+  <title>TRA CỨU THỦ TỤC NHÀ ĐẤT | Luật Đất Đai 2024 & Thừa Kế</title>
+  <meta name="description" content="TRA CỨU THỦ TỤC NHÀ ĐẤT - Cổng tra cứu thủ tục sang tên Sổ đỏ, thừa kế di sản, tặng cho nhà đất, giải quyết tranh chấp, tính thuế phí tự động và điểm tin pháp luật cập nhật hàng ngày." />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +14,8 @@
     body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
   </style>
 </head>
-<body class="min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-amber-200">
-  <!-- Header -->
+<body class="min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-amber-200 selection:text-slate-900">
+  <!-- Top Navigation Bar -->
   <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
       <div class="flex items-center gap-3">
@@ -43,7 +43,7 @@
         </a>
         <a href="#tin-tuc-phap-luat" class="inline-flex items-center gap-1.5 hover:text-amber-600">
           <i data-lucide="newspaper" class="h-4 w-4 text-amber-600"></i>
-          Tin Pháp Luật (<span id="nav-news-count">0</span>)
+          Tin Pháp Luật (<span id="nav-news-count">40</span>)
         </a>
       </nav>
     </div>
@@ -64,7 +64,7 @@
           <p class="mt-2 text-lg font-semibold text-amber-300">
             Cổng Cẩm Nang Thủ Tục Đất Đai, Sổ Đỏ &amp; Thừa Kế
           </p>
-          <p class="mt-4 max-w-3xl text-base leading-relaxed text-slate-300">
+          <p class="mt-3 max-w-3xl text-base leading-relaxed text-slate-300">
             Hướng dẫn chi tiết hồ sơ công chứng, lộ trình liên thông Một cửa &ndash; Thuế, công cụ ước tính Thuế TNCN (2%), Lệ phí trước bạ (0.5%) và điểm tin văn bản pháp luật cập nhật tự động hàng ngày.
           </p>
           <div class="mt-6 flex flex-wrap gap-3">
@@ -109,7 +109,7 @@
     </div>
   </div>
 
-  <!-- Main Workspace -->
+  <!-- Main Content Container -->
   <main class="mx-auto max-w-7xl space-y-12 px-4 py-10 sm:px-6 lg:px-8">
     <!-- 1. PROCEDURES HUB -->
     <section id="cam-nang-thu-tuc" class="scroll-mt-24 space-y-6">
@@ -117,19 +117,22 @@
         <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <div>
             <div class="inline-flex items-center gap-2 rounded-full bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-800 ring-1 ring-amber-200">
+              <i data-lucide="scale" class="h-3.5 w-3.5"></i>
               Chuẩn hóa theo Luật Đất đai 2024 & Nghị định 101/2024/NĐ-CP
             </div>
             <h2 class="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
               Cẩm Nang Thủ Tục Đất Đai & Thừa Kế
             </h2>
             <p class="mt-1 text-sm text-slate-600">
-              Tra cứu hồ sơ cần chuẩn bị, đánh dấu tiến độ (tự động lưu trong <code>localStorage</code>) và lộ trình 4 bước giải quyết hành chính.
+              Tra cứu hồ sơ cần chuẩn bị, đánh dấu tiến độ (tự động lưu trên trình duyệt) và lộ trình 4 bước giải quyết hành chính.
             </p>
           </div>
-          <form id="proc-search-form" class="flex w-full items-center gap-2 lg:w-[460px]">
+
+          <form id="proc-search-form" class="flex w-full items-center gap-2 lg:w-[440px]">
             <div class="relative flex-1">
+              <i data-lucide="search" class="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"></i>
               <input id="proc-search" type="text" placeholder="Tìm thủ tục, mẫu đơn 11/ĐK, di chúc, sổ đỏ..."
-                class="w-full rounded-xl border border-slate-300 bg-slate-50 py-2.5 pl-4 pr-9 text-sm text-slate-900 placeholder:text-slate-400 focus:border-amber-600 focus:bg-white focus:outline-none" />
+                class="w-full rounded-xl border border-slate-300 bg-slate-50 py-2.5 pl-10 pr-8 text-sm text-slate-900 placeholder:text-slate-400 focus:border-amber-600 focus:bg-white focus:outline-none focus:ring-2 focus:ring-amber-500/20" />
               <button id="proc-search-clear" type="button" title="Xóa từ khóa"
                 class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 rounded-full px-1.5 py-0.5 text-xs font-bold text-slate-400 hover:bg-slate-200 hover:text-slate-700">✕</button>
             </div>
@@ -138,7 +141,13 @@
             </button>
           </form>
         </div>
-        <div id="proc-categories" class="mt-5 flex flex-wrap items-center gap-2 border-t border-slate-100 pt-4"></div>
+
+        <div class="mt-5 flex flex-wrap items-center gap-2 border-t border-slate-100 pt-4">
+          <span class="mr-1 inline-flex items-center gap-1.5 text-xs font-medium text-slate-500">
+            <i data-lucide="filter" class="h-3.5 w-3.5"></i> Nhóm thủ tục:
+          </span>
+          <div id="proc-categories" class="flex flex-wrap items-center gap-2"></div>
+        </div>
       </div>
 
       <div class="grid grid-cols-1 gap-6 lg:grid-cols-12">
@@ -152,6 +161,7 @@
       <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
         <div>
           <div class="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-800 ring-1 ring-emerald-200">
+            <i data-lucide="calculator" class="h-3.5 w-3.5"></i>
             Công cụ tính toán tự động theo Biểu phí Bộ Tài chính
           </div>
           <h2 class="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
@@ -176,25 +186,34 @@
                 </label>
                 <span id="calc-value-formatted" class="text-xs font-bold text-amber-700">2.500.000.000 đ</span>
               </div>
-              <input id="calc-value" type="number" min="0" step="50000000" value="2500000000"
-                class="mt-2 w-full rounded-xl border border-slate-300 bg-white py-3 px-4 text-base font-bold text-slate-900 focus:border-amber-600 focus:outline-none" />
+              <div class="relative mt-2">
+                <i data-lucide="coins" class="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"></i>
+                <input id="calc-value" type="number" min="0" step="50000000" value="2500000000"
+                  class="w-full rounded-xl border border-slate-300 bg-white py-3 pl-10 pr-4 text-base font-bold text-slate-900 focus:border-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500/20" />
+              </div>
               <div id="calc-presets" class="mt-2.5 flex flex-wrap items-center gap-2"></div>
             </div>
 
             <div class="space-y-3 rounded-xl border border-slate-200 bg-slate-50 p-4">
               <div class="text-xs font-bold uppercase tracking-wider text-slate-600">3. Điều kiện miễn thuế & Khu vực hành chính</div>
               <label class="flex cursor-pointer items-start gap-3 rounded-lg border border-slate-200 bg-white p-3 hover:border-amber-400">
-                <input id="calc-family" type="checkbox" class="mt-1 h-4 w-4 rounded border-slate-300 text-amber-600" />
+                <input id="calc-family" type="checkbox" class="mt-1 h-4 w-4 rounded border-slate-300 text-amber-600 focus:ring-amber-500" />
                 <div class="text-xs">
-                  <span class="font-bold text-slate-900">Quan hệ nhân thân trực hệ trong gia đình (Miễn 100% Thuế & Trước bạ)</span>
-                  <p class="mt-0.5 text-slate-600">Áp dụng giữa: Vợ - chồng; Cha mẹ đẻ/nuôi - Con đẻ/nuôi/dâu/rể; Ông bà nội/ngoại - Cháu ruột; Anh chị em ruột.</p>
+                  <span class="flex items-center gap-1.5 font-bold text-slate-900">
+                    <i data-lucide="heart-handshake" class="h-4 w-4 text-emerald-600"></i>
+                    Quan hệ nhân thân trực hệ trong gia đình (Miễn thuế)
+                  </span>
+                  <p class="mt-0.5 text-slate-600">Áp dụng giữa: Vợ - chồng; Cha mẹ đẻ/nuôi - Con đẻ/nuôi/dâu/rể; Ông bà nội/ngoại - Cháu ruột; Anh chị em ruột với nhau.</p>
                 </div>
               </label>
               <label id="calc-sole-wrap" class="flex cursor-pointer items-start gap-3 rounded-lg border border-slate-200 bg-white p-3 hover:border-amber-400">
-                <input id="calc-sole" type="checkbox" class="mt-1 h-4 w-4 rounded border-slate-300 text-amber-600" />
+                <input id="calc-sole" type="checkbox" class="mt-1 h-4 w-4 rounded border-slate-300 text-amber-600 focus:ring-amber-500" />
                 <div class="text-xs">
-                  <span class="font-bold text-slate-900">Nhà ở, quyền sử dụng đất ở duy nhất (Giữ tối thiểu 183 ngày)</span>
-                  <p class="mt-0.5 text-slate-600">Miễn thuế TNCN 2% cho bên chuyển nhượng theo Khoản 2 Điều 4 Luật Thuế TNCN.</p>
+                  <span class="flex items-center gap-1.5 font-bold text-slate-900">
+                    <i data-lucide="home" class="h-4 w-4 text-amber-600"></i>
+                    Nhà ở, quyền sử dụng đất ở duy nhất (Giữ tối thiểu 183 ngày)
+                  </span>
+                  <p class="mt-0.5 text-slate-600">Miễn thuế TNCN 2% cho bên chuyển nhượng theo Khoản 2 Điều 4 Luật Thuế TNCN (vẫn nộp 0.5% lệ phí trước bạ).</p>
                 </div>
               </label>
               <div class="flex items-center justify-between pt-1">
@@ -220,18 +239,20 @@
         <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <div>
             <div class="inline-flex items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold text-amber-400">
+              <i data-lucide="bot" class="h-3.5 w-3.5"></i>
               GitHub Actions Scraper &bull; Cập nhật tự động 06:00 sáng hàng ngày
             </div>
-            <h2 class="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
+            <h2 class="mt-2 flex items-center gap-2.5 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
+              <i data-lucide="newspaper" class="h-7 w-7 text-amber-600"></i>
               Điểm Tin Pháp Luật Đất Đai & Văn Bản Mới
             </h2>
             <p class="mt-1 text-sm text-slate-600">
-              Dữ liệu được thu thập tự động bởi <code>scripts/legal_scraper.py</code> và lưu tại <code>/data/legal_news.json</code>.
+              Dữ liệu được thu thập tự động bởi <code class="rounded bg-slate-100 px-1.5 py-0.5 text-xs font-mono text-slate-800">scripts/legal_scraper.py</code> từ các nguồn báo chí pháp luật chính thống và lưu tại <code class="rounded bg-slate-100 px-1.5 py-0.5 text-xs font-mono text-slate-800">/data/legal_news.json</code>.
             </p>
           </div>
           <div class="flex flex-wrap items-center gap-2">
             <div id="news-sync-badge" class="inline-flex items-center gap-1.5 rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-800"></div>
-            <button id="btn-live-refresh" type="button" class="inline-flex items-center gap-1.5 rounded-xl bg-slate-900 px-3.5 py-2 text-xs font-semibold text-amber-400 hover:bg-slate-800">
+            <button id="btn-live-refresh" type="button" class="inline-flex items-center gap-1.5 rounded-xl bg-slate-900 px-3.5 py-2 text-xs font-semibold text-amber-400 transition hover:bg-slate-800">
               Làm mới trực tiếp
             </button>
           </div>
@@ -241,8 +262,9 @@
           <div id="news-categories" class="flex flex-wrap items-center gap-1.5"></div>
           <form id="news-search-form" class="flex w-full items-center gap-2 lg:w-96">
             <div class="relative flex-1">
+              <i data-lucide="search" class="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"></i>
               <input id="news-search" type="text" placeholder="Lọc tin tức, nghị định, thông tư..."
-                class="w-full rounded-xl border border-slate-300 bg-slate-50 py-2 pl-3 pr-8 text-xs text-slate-900 focus:border-amber-600 focus:bg-white focus:outline-none" />
+                class="w-full rounded-xl border border-slate-300 bg-slate-50 py-2 pl-9 pr-8 text-xs text-slate-900 placeholder:text-slate-400 focus:border-amber-600 focus:bg-white focus:outline-none" />
               <button id="news-search-clear" type="button" title="Xóa từ khóa"
                 class="hidden absolute right-2 top-1/2 -translate-y-1/2 rounded-full px-1.5 py-0.5 text-xs font-bold text-slate-400 hover:bg-slate-200 hover:text-slate-700">✕</button>
             </div>
@@ -259,7 +281,7 @@
 
   <footer class="mt-16 border-t border-slate-200 bg-white py-8">
     <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 text-xs text-slate-500 sm:flex-row sm:px-6 lg:px-8">
-      <p>&copy; 2026 Cổng Cẩm Nang Thủ Tục Đất Đai &amp; Thừa Kế. Xây dựng trên Next.js 14 App Router &amp; GitHub Actions.</p>
+      <p>&copy; 2026 TRA CỨU THỦ TỤC NHÀ ĐẤT - Cổng Cẩm Nang Thủ Tục Đất Đai &amp; Thừa Kế. Xây dựng trên Next.js 14 App Router &amp; GitHub Actions.</p>
       <p class="text-slate-400">Thông tin mang tính chất tham khảo nghiệp vụ hành chính theo Luật Đất đai 2024.</p>
     </div>
   </footer>
@@ -274,6 +296,7 @@
       let procSearch = "";
       let procCategory = "Tất cả";
       let activeProcId = procedures[0] ? procedures[0].id : "";
+      let showUncheckedOnly = false;
       let checkedMap = {};
       try {
         checkedMap = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}") || {};
@@ -325,7 +348,7 @@
         catEl.innerHTML = cats.map(c => {
           const isSelected = procCategory === c && (c !== "Tất cả" || procSearch.trim() === "");
           return `
-            <button type="button" data-cat="${c}" class="inline-flex items-center gap-1.5 rounded-lg px-3.5 py-1.5 text-xs font-semibold transition ${
+            <button type="button" data-cat="${c}" class="inline-flex items-center gap-1.5 rounded-lg px-3.5 py-1.5 text-xs font-semibold transition-all ${
               isSelected ? "bg-slate-900 text-white shadow-sm" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
             }">
               <span>${c}</span>
@@ -333,6 +356,7 @@
             </button>
           `;
         }).join("");
+
         catEl.querySelectorAll("button").forEach(btn => {
           btn.onclick = () => {
             const picked = btn.getAttribute("data-cat");
@@ -366,7 +390,7 @@
         if (filtered.length === 0) {
           sidebarEl.innerHTML = `
             <div class="rounded-2xl border border-dashed border-slate-300 bg-white p-6 text-center">
-              <p class="text-sm font-medium text-slate-700">Không tìm thấy thủ tục phù hợp với "${procSearch}"</p>
+              <p class="text-sm font-medium text-slate-700">Không tìm thấy thủ tục phù hợp với từ khóa "${procSearch}"</p>
               <button id="btn-proc-empty-reset" type="button" class="mt-3 rounded-lg bg-amber-600 px-3.5 py-2 text-xs font-bold text-white hover:bg-amber-700">Xem tất cả thủ tục</button>
             </div>
           `;
@@ -390,19 +414,23 @@
         sidebarEl.innerHTML = filtered.map(p => {
           const isAct = p.id === active.id;
           const done = p.checklist.filter(i => checkedMap[i.id]).length;
+          const total = p.checklist.length;
           return `
-            <button type="button" data-id="${p.id}" class="w-full rounded-2xl border p-4 text-left transition ${
-              isAct ? "border-amber-600 bg-amber-50/60 ring-1 ring-amber-600" : "border-slate-200 bg-white hover:bg-slate-50"
+            <button type="button" data-id="${p.id}" class="w-full rounded-2xl border p-4 text-left transition-all ${
+              isAct ? "border-amber-600 bg-amber-50/50 shadow-sm ring-1 ring-amber-600" : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50/70"
             }">
               <div class="flex items-center justify-between gap-2">
-                <span class="rounded-md bg-slate-100 px-2.5 py-0.5 text-[11px] font-semibold text-slate-700">${p.category}</span>
-                <span class="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">${done}/${p.checklist.length} hồ sơ</span>
+                <span class="inline-flex items-center rounded-md bg-slate-100 px-2.5 py-0.5 text-[11px] font-semibold text-slate-700">${p.category}</span>
+                <span class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${
+                  done === total && total > 0 ? "bg-emerald-100 text-emerald-800" : "bg-slate-100 text-slate-600"
+                }">✓ ${done}/${total} hồ sơ</span>
               </div>
               <h3 class="mt-2 font-bold text-slate-900">${p.title}</h3>
-              <p class="mt-1 text-xs text-slate-600">${p.summary}</p>
+              <p class="mt-1 line-clamp-2 text-xs leading-relaxed text-slate-600">${p.summary}</p>
             </button>
           `;
         }).join("");
+
         sidebarEl.querySelectorAll("button").forEach(btn => {
           btn.onclick = () => {
             activeProcId = btn.getAttribute("data-id");
@@ -413,62 +441,84 @@
         const totalDocs = active.checklist.length;
         const doneDocs = active.checklist.filter(i => checkedMap[i.id]).length;
         const pct = totalDocs > 0 ? Math.round((doneDocs / totalDocs) * 100) : 0;
+        const visibleChecklist = showUncheckedOnly
+          ? active.checklist.filter(i => !checkedMap[i.id])
+          : active.checklist;
 
         const detailEl = document.getElementById("proc-detail");
         detailEl.innerHTML = `
           <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
             <div class="flex flex-wrap items-center justify-between gap-2">
               <span class="rounded-lg bg-slate-900 px-3 py-1 text-xs font-semibold text-amber-400">${active.category}</span>
-              <span class="text-xs text-slate-600">Thời hạn giải quyết: <strong>${active.processingTime}</strong></span>
+              <span class="inline-flex items-center gap-1.5 text-xs font-medium text-slate-500">
+                ⏱ Thời hạn giải quyết: <strong class="text-slate-800">${active.processingTime}</strong>
+              </span>
             </div>
             <h3 class="mt-3 text-xl font-bold text-slate-900 sm:text-2xl">${active.title}</h3>
-            <p class="mt-2 text-sm text-slate-600">${active.summary}</p>
-            <div class="mt-4 grid grid-cols-1 gap-4 rounded-xl bg-slate-50 p-4 sm:grid-cols-2">
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">${active.summary}</p>
+            <div class="mt-5 grid grid-cols-1 gap-4 rounded-xl bg-slate-50 p-4 sm:grid-cols-2">
               <div>
-                <div class="text-xs font-bold uppercase text-slate-500">Cơ quan có thẩm quyền</div>
-                <p class="mt-1 text-xs font-medium text-slate-800">${active.authority}</p>
+                <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">🏛 Cơ quan có thẩm quyền</div>
+                <p class="mt-1.5 text-xs font-medium leading-relaxed text-slate-800">${active.authority}</p>
               </div>
               <div>
-                <div class="text-xs font-bold uppercase text-slate-500">Căn cứ pháp lý</div>
-                <ul class="mt-1 space-y-1 text-xs text-slate-700">
-                  ${active.legalBasis.map(l => `<li>&bull; ${l}</li>`).join("")}
+                <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">📖 Căn cứ pháp lý hiện hành</div>
+                <ul class="mt-1.5 space-y-1 text-xs text-slate-700">
+                  ${active.legalBasis.map(l => `<li class="flex items-start gap-1.5"><span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-600"></span><span>${l}</span></li>`).join("")}
                 </ul>
               </div>
             </div>
           </div>
 
           <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div class="flex flex-wrap items-center justify-between gap-2">
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div>
-                <h4 class="text-lg font-bold text-slate-900">Checklist Hồ Sơ Cần Chuẩn Bị (Lưu localStorage)</h4>
-                <p class="text-xs text-slate-500">Nhấn vào từng mục để đánh dấu giấy tờ đã chuẩn bị sẵn.</p>
+                <h4 class="text-lg font-bold text-slate-900">Checklist Hồ Sơ Cần Chuẩn Bị (Lưu Tự Động)</h4>
+                <p class="text-xs text-slate-500">Đánh dấu từng giấy tờ bạn đã có sẵn. Trạng thái được lưu vào <code class="rounded bg-slate-100 px-1 py-0.5 text-[11px] font-mono text-slate-700">localStorage</code> để theo dõi nhiều ngày.</p>
               </div>
-              <button id="btn-reset-checklist" type="button" class="rounded-lg border border-slate-200 px-3 py-1.5 text-xs font-semibold text-slate-600 hover:bg-slate-100">Đặt lại</button>
+              <div class="flex flex-wrap items-center gap-2">
+                <button id="btn-toggle-unchecked" type="button" class="rounded-lg border px-2.5 py-1.5 text-xs font-medium transition ${
+                  showUncheckedOnly ? "border-amber-600 bg-amber-50 text-amber-800" : "border-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100"
+                }">${showUncheckedOnly ? "Hiện tất cả hồ sơ" : "Chỉ hiện mục thiếu"}</button>
+                <button id="btn-check-all" type="button" class="rounded-lg border border-emerald-200 bg-emerald-50 px-2.5 py-1.5 text-xs font-medium text-emerald-800 hover:bg-emerald-100">Chọn tất cả</button>
+                <button id="btn-reset-checklist" type="button" class="rounded-lg border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-100">Đặt lại</button>
+              </div>
             </div>
+
             <div class="mt-4">
-              <div class="flex justify-between text-xs font-semibold">
-                <span>Tiến độ: ${doneDocs}/${totalDocs} tài liệu</span>
+              <div class="flex items-center justify-between text-xs font-semibold">
+                <span class="text-slate-700">Tiến độ chuẩn bị hồ sơ: ${doneDocs}/${totalDocs} tài liệu</span>
                 <span class="${pct === 100 ? "text-emerald-600" : "text-amber-600"}">${pct}% hoàn tất</span>
               </div>
               <div class="mt-1.5 h-2.5 w-full overflow-hidden rounded-full bg-slate-100">
-                <div class="h-full ${pct === 100 ? "bg-emerald-600" : "bg-amber-500"}" style="width:${pct}%"></div>
+                <div class="h-full rounded-full transition-all duration-300 ${pct === 100 ? "bg-emerald-600" : "bg-amber-500"}" style="width:${pct}%"></div>
               </div>
             </div>
+
             <div class="mt-4 space-y-3">
-              ${active.checklist.map(item => {
+              ${visibleChecklist.length === 0 ? `
+                <div class="rounded-xl border border-emerald-200 bg-emerald-50/70 p-4 text-center text-xs font-medium text-emerald-800">
+                  Tuyệt vời! Bạn đã chuẩn bị đầy đủ tất cả giấy tờ trong danh mục này.
+                </div>
+              ` : visibleChecklist.map(item => {
                 const isChecked = !!checkedMap[item.id];
                 return `
-                  <div data-check-id="${item.id}" class="cursor-pointer rounded-xl border p-4 transition ${
+                  <div data-check-id="${item.id}" class="cursor-pointer rounded-xl border p-4 transition-all ${
                     isChecked ? "border-emerald-200 bg-emerald-50/40" : "border-slate-200 bg-white hover:border-amber-300"
                   }">
-                    <div class="flex items-start justify-between gap-2">
+                    <div class="flex flex-wrap items-center justify-between gap-2">
                       <span class="text-sm font-bold ${isChecked ? "line-through text-slate-500" : "text-slate-900"}">
                         ${isChecked ? "☑️" : "⬜"} ${item.name}
                       </span>
-                      <span class="rounded bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-700">${item.copies}</span>
+                      <div class="flex items-center gap-1.5">
+                        <span class="rounded px-2 py-0.5 text-[11px] font-semibold ${
+                          item.mandatory ? "bg-rose-50 text-rose-700 ring-1 ring-rose-200" : "bg-slate-100 text-slate-600"
+                        }">${item.mandatory ? "Bắt buộc" : "Tùy trường hợp"}</span>
+                        <span class="rounded bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-700">${item.copies}</span>
+                      </div>
                     </div>
                     <p class="mt-1 text-xs text-slate-600">${item.description}</p>
-                    <p class="mt-1 text-[11px] font-medium text-amber-800">Lưu ý: ${item.notes}</p>
+                    <p class="mt-1.5 text-[11px] font-medium text-amber-800">Lưu ý: ${item.notes}</p>
                   </div>
                 `;
               }).join("")}
@@ -477,18 +527,21 @@
 
           <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
             <h4 class="text-lg font-bold text-slate-900">Lộ Trình Hành Chính 4 Bước (Công Chứng &rarr; Một Cửa &rarr; Thuế &rarr; Trả Kết Quả)</h4>
-            <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+            <p class="mt-1 text-xs text-slate-500">Quy trình chuẩn liên thông Một cửa điện tử và Cơ quan Thuế theo quy định hiện hành.</p>
+            <div class="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2">
               ${active.timeline.map(st => `
-                <div class="rounded-xl border border-slate-200 bg-slate-50/60 p-4">
-                  <div class="flex items-center justify-between">
-                    <span class="rounded-lg bg-slate-900 px-2.5 py-1 text-xs font-bold text-amber-400">Bước ${st.step}: ${st.phase}</span>
-                    <span class="rounded bg-amber-100 px-2 py-0.5 text-[11px] font-semibold text-amber-900">${st.duration}</span>
+                <div class="flex flex-col justify-between rounded-xl border border-slate-200 bg-slate-50/60 p-4">
+                  <div>
+                    <div class="flex items-center justify-between gap-2">
+                      <span class="rounded-lg bg-slate-900 px-2.5 py-1 text-xs font-bold text-amber-400">Bước ${st.step}: ${st.phase}</span>
+                      <span class="rounded-md bg-amber-100/80 px-2 py-0.5 text-[11px] font-semibold text-amber-900">⏱ ${st.duration}</span>
+                    </div>
+                    <h5 class="mt-3 text-sm font-bold text-slate-900">${st.title}</h5>
+                    <p class="mt-1 text-xs font-medium text-slate-500">🏛 ${st.agency}</p>
+                    <p class="mt-2 text-xs leading-relaxed text-slate-700">${st.description}</p>
                   </div>
-                  <h5 class="mt-2.5 text-sm font-bold text-slate-900">${st.title}</h5>
-                  <p class="mt-1 text-xs font-medium text-slate-500">${st.agency}</p>
-                  <p class="mt-1.5 text-xs text-slate-700">${st.description}</p>
-                  <div class="mt-2.5 rounded-lg border border-amber-200 bg-amber-50 p-2 text-[11px] text-amber-900">
-                    <strong>Lưu ý:</strong> ${st.warning}
+                  <div class="mt-3 rounded-lg border border-amber-200/80 bg-amber-50/70 p-2.5 text-[11px] text-amber-900">
+                    <strong>Lưu ý thực tế:</strong> ${st.warning}
                   </div>
                 </div>
               `).join("")}
@@ -504,6 +557,21 @@
             renderProcedures();
           };
         });
+        const toggleUncheckedBtn = document.getElementById("btn-toggle-unchecked");
+        if (toggleUncheckedBtn) {
+          toggleUncheckedBtn.onclick = () => {
+            showUncheckedOnly = !showUncheckedOnly;
+            renderProcedures();
+          };
+        }
+        const checkAllBtn = document.getElementById("btn-check-all");
+        if (checkAllBtn) {
+          checkAllBtn.onclick = () => {
+            active.checklist.forEach(i => { checkedMap[i.id] = true; });
+            saveChecked();
+            renderProcedures();
+          };
+        }
         const resetBtn = document.getElementById("btn-reset-checklist");
         if (resetBtn) {
           resetBtn.onclick = () => {
@@ -522,8 +590,8 @@
         ];
         const txEl = document.getElementById("calc-tx-types");
         txEl.innerHTML = txTabs.map(t => `
-          <button type="button" data-tx="${t.id}" class="rounded-xl border p-3.5 text-left transition ${
-            txType === t.id ? "border-slate-900 bg-slate-900 text-white" : "border-slate-200 bg-slate-50 text-slate-800"
+          <button type="button" data-tx="${t.id}" class="rounded-xl border p-3.5 text-left transition-all ${
+            txType === t.id ? "border-slate-900 bg-slate-900 text-white shadow-sm" : "border-slate-200 bg-slate-50 text-slate-800 hover:bg-slate-100"
           }">
             <div class="text-sm font-bold">${t.label}</div>
             <div class="mt-1 text-[11px] ${txType === t.id ? "text-amber-300" : "text-slate-500"}">${t.desc}</div>
@@ -545,8 +613,8 @@
         ];
         const presetEl = document.getElementById("calc-presets");
         presetEl.innerHTML = `<span class="text-xs text-slate-500">Chọn nhanh:</span>` + presets.map(p => `
-          <button type="button" data-val="${p.value}" class="rounded-lg border px-2.5 py-1 text-xs font-semibold ${
-            propValue === p.value ? "border-amber-600 bg-amber-50 text-amber-800" : "border-slate-200 bg-slate-50 text-slate-700"
+          <button type="button" data-val="${p.value}" class="rounded-lg border px-2.5 py-1 text-xs font-semibold transition ${
+            propValue === p.value ? "border-amber-600 bg-amber-50 text-amber-800" : "border-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100"
           }">${p.label}</button>
         `).join("");
         presetEl.querySelectorAll("button").forEach(b => {
@@ -563,25 +631,25 @@
         let pit = 0, pitNote = "";
         if (isFamily) {
           pit = 0;
-          pitNote = "Miễn 100% Thuế TNCN do giao dịch giữa người thân trực hệ (Khoản 1 & 4 Điều 4 Luật Thuế TNCN).";
+          pitNote = "Miễn 100% Thuế TNCN do giao dịch giữa người thân trực hệ / vợ chồng / anh chị em ruột (Khoản 1 & 4 Điều 4 Luật Thuế TNCN).";
         } else if (txType === "transfer" && isSole) {
           pit = 0;
-          pitNote = "Miễn 100% Thuế TNCN do chuyển nhượng nhà ở, đất ở duy nhất (Khoản 2 Điều 4 Luật Thuế TNCN).";
+          pitNote = "Miễn 100% Thuế TNCN do chuyển nhượng nhà ở, quyền sử dụng đất ở duy nhất tại Việt Nam (Khoản 2 Điều 4 Luật Thuế TNCN).";
         } else if (txType === "transfer") {
           pit = propValue * 0.02;
           pitNote = "2% trên giá trị chuyển nhượng (Điều 17 Thông tư 92/2015/TT-BTC).";
         } else {
           pit = Math.max(0, propValue - 10e6) * 0.1;
-          pitNote = "10% trên phần giá trị vượt 10 triệu đồng đối với tặng cho/thừa kế ngoài quan hệ trực hệ.";
+          pitNote = "10% trên phần giá trị vượt 10 triệu đồng đối với tặng cho/thừa kế ngoài quan hệ nhân thân trực hệ.";
         }
 
         let reg = 0, regNote = "";
         if (isFamily && (txType === "gift" || txType === "inheritance")) {
           reg = 0;
-          regNote = "Miễn 100% Lệ phí trước bạ khi thừa kế/tặng cho giữa người thân trực hệ (Khoản 10 Điều 10 Nghị định 10/2022/NĐ-CP).";
+          regNote = "Miễn 100% Lệ phí trước bạ khi nhận thừa kế/tặng cho giữa người thân trực hệ (Khoản 10 Điều 10 Nghị định 10/2022/NĐ-CP).";
         } else {
           reg = Math.min(propValue * 0.005, 500e6);
-          regNote = "0.5% giá trị nhà đất (Tối đa 500 triệu đồng/tài sản).";
+          regNote = "0.5% giá trị nhà đất (Trần tối đa 500 triệu đồng/tài sản theo Nghị định 10/2022/NĐ-CP).";
         }
 
         const notary = calculateNotaryFee(propValue);
@@ -591,40 +659,45 @@
 
         document.getElementById("calc-result").innerHTML = `
           <div>
-            <div class="border-b border-slate-800 pb-4">
-              <span class="text-xs font-semibold uppercase tracking-wider text-amber-400">Tổng chi phí sang tên dự kiến</span>
-              <div class="mt-1 text-3xl font-extrabold text-white">${formatVnd(total)}</div>
+            <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+              <div>
+                <span class="text-xs font-semibold uppercase tracking-wider text-amber-400">Tổng chi phí sang tên dự kiến</span>
+                <div class="mt-1 text-3xl font-extrabold tracking-tight text-white">${formatVnd(total)}</div>
+              </div>
             </div>
-            <div class="mt-5 space-y-3.5">
+            <div class="mt-5 space-y-4">
               <div class="rounded-xl bg-slate-800/80 p-3.5">
-                <div class="flex justify-between text-sm font-bold">
-                  <span>1. Thuế TNCN</span>
+                <div class="flex items-center justify-between text-sm font-bold">
+                  <span>1. Thuế thu nhập cá nhân (TNCN)</span>
                   <span class="${pit === 0 ? "text-emerald-400" : "text-amber-300"}">${pit === 0 ? "0 đ (Được miễn)" : formatVnd(pit)}</span>
                 </div>
-                <p class="mt-1 text-[11px] text-slate-300">${pitNote}</p>
+                <p class="mt-1 text-[11px] leading-relaxed text-slate-300">${pitNote}</p>
               </div>
               <div class="rounded-xl bg-slate-800/80 p-3.5">
-                <div class="flex justify-between text-sm font-bold">
+                <div class="flex items-center justify-between text-sm font-bold">
                   <span>2. Lệ phí trước bạ (0.5%)</span>
                   <span class="${reg === 0 ? "text-emerald-400" : "text-amber-300"}">${reg === 0 ? "0 đ (Được miễn)" : formatVnd(reg)}</span>
                 </div>
-                <p class="mt-1 text-[11px] text-slate-300">${regNote}</p>
+                <p class="mt-1 text-[11px] leading-relaxed text-slate-300">${regNote}</p>
               </div>
               <div class="rounded-xl bg-slate-800/80 p-3.5">
-                <div class="flex justify-between text-sm font-bold">
+                <div class="flex items-center justify-between text-sm font-bold">
                   <span>3. Phí công chứng hợp đồng</span>
-                  <span>${formatVnd(notary)}</span>
+                  <span class="text-white">${formatVnd(notary)}</span>
                 </div>
-                <p class="mt-1 text-[11px] text-slate-300">Biểu phí lũy tiến Thông tư 257/2016/TT-BTC.</p>
+                <p class="mt-1 text-[11px] text-slate-300">Biểu phí lũy tiến theo giá trị tài sản tại Thông tư 257/2016/TT-BTC (Chưa gồm thù lao soạn thảo ~300.000đ).</p>
               </div>
               <div class="rounded-xl bg-slate-800/80 p-3.5">
-                <div class="flex justify-between text-sm font-bold">
+                <div class="flex items-center justify-between text-sm font-bold">
                   <span>4. Phí thẩm định & Cấp phôi Sổ mới</span>
-                  <span>${formatVnd(appraisal + cert)}</span>
+                  <span class="text-white">${formatVnd(appraisal + cert)}</span>
                 </div>
-                <p class="mt-1 text-[11px] text-slate-300">Phí thẩm định (${formatVnd(appraisal)}) + Lệ phí cấp đổi GCN (${formatVnd(cert)}).</p>
+                <p class="mt-1 text-[11px] text-slate-300">Gồm phí thẩm định hồ sơ (${formatVnd(appraisal)}) + Lệ phí cấp đổi Giấy chứng nhận (${formatVnd(cert)}).</p>
               </div>
             </div>
+          </div>
+          <div class="mt-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-200">
+            Theo Luật Đất đai 2024, giá tính thuế TNCN và Lệ phí trước bạ căn cứ theo giá ghi trên Hợp đồng công chứng; nếu thấp hơn Bảng giá đất do UBND cấp tỉnh ban hành thì áp dụng theo Bảng giá đất.
           </div>
         `;
       }
@@ -655,6 +728,7 @@
             </button>
           `;
         }).join("");
+
         catEl.querySelectorAll("button").forEach(b => {
           b.onclick = () => {
             const picked = b.getAttribute("data-ncat");
@@ -700,16 +774,16 @@
         }
 
         document.getElementById("news-grid").innerHTML = filtered.map(item => `
-          <article class="flex flex-col justify-between rounded-xl border border-slate-200 bg-slate-50/50 p-5 transition hover:border-amber-400 hover:bg-white hover:shadow-md">
+          <article class="group flex flex-col justify-between rounded-xl border border-slate-200 bg-slate-50/50 p-5 transition-all hover:border-amber-400 hover:bg-white hover:shadow-md">
             <div>
-              <div class="flex items-center justify-between text-xs">
-                <span class="rounded-md bg-amber-100 px-2.5 py-0.5 font-semibold text-amber-900">${item.category}</span>
-                <span class="text-slate-500">${item.publishedDate}</span>
+              <div class="flex items-center justify-between gap-2 text-xs">
+                <span class="inline-flex items-center gap-1 rounded-md bg-amber-100/80 px-2.5 py-0.5 font-semibold text-amber-900">🏷 ${item.category}</span>
+                <span class="inline-flex items-center gap-1 text-slate-500">📅 ${item.publishedDate}</span>
               </div>
-              <h3 class="mt-3 text-base font-bold text-slate-900 hover:text-amber-700">
+              <h3 class="mt-3 line-clamp-2 text-base font-bold text-slate-900 group-hover:text-amber-700">
                 <a href="${item.sourceUrl}" target="_blank" rel="noopener noreferrer">${item.title}</a>
               </h3>
-              <p class="mt-2 text-xs leading-relaxed text-slate-600">${item.summary}</p>
+              <p class="mt-2 line-clamp-3 text-xs leading-relaxed text-slate-600">${item.summary}</p>
             </div>
             <div class="mt-4 flex items-center justify-between border-t border-slate-200/70 pt-3 text-xs">
               <span class="font-semibold text-slate-500">${item.sourceName || "Nguồn Pháp Luật"}</span>
@@ -769,7 +843,6 @@
         if (btn) btn.textContent = "Đang đồng bộ...";
         const seen = new Set(legalNews.map(n => n.sourceUrl));
 
-        // 1. Đồng bộ trực tiếp từ GitHub Raw (dữ liệu do GitHub Actions cào lúc 06:00 sáng)
         try {
           const ghRes = await fetch("https://raw.githubusercontent.com/robin148148/tra-cuu-thu-tuc-nha-dat/main/data/legal_news.json?t=" + Date.now());
           if (ghRes.ok) {
@@ -786,7 +859,6 @@
           }
         } catch (e) {}
 
-        // 2. Quét thêm RSS trực tiếp thời gian thực trên trình duyệt
         try {
           const res = await fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://vnexpress.net/rss/phap-luat.rss"));
           if (res.ok) {
@@ -813,7 +885,6 @@
             }
           }
         } catch (e) {
-          // Offline fallback: giữ dữ liệu trong portal-data.js
         } finally {
           if (btn) btn.textContent = "Làm mới trực tiếp";
         }
