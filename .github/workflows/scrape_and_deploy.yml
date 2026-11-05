@@ -1,0 +1,76 @@
+name: Daily Legal News Scraper & GitHub Pages Deploy
+
+on:
+  push:
+    branches: ["main", "master"]
+  schedule:
+    # Runs daily at 23:00 UTC (06:00 AM GMT+7)
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  scrape-build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install beautifulsoup4 requests feedparser
+
+      - name: Run Vietnamese Legal News Scraper
+        run: python scripts/legal_scraper.py
+
+      - name: Auto-commit updated legal news data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/legal_news.json public/portal-data.js portal-data.js preview.html index.html
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): auto-update legal news [skip ci]" && git push)
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies & build static site
+        run: |
+          npm install
+          npm run build
+          touch out/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload static artifact to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './out'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

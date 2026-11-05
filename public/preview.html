@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TRA CỨU THỦ TỤC NHÀ ĐẤT | Luật Đất Đai 2024</title>
+  <meta name="description" content="Cổng tra cứu thủ tục sang tên Sổ đỏ, thừa kế, tặng cho, cấp đổi Sổ hồng, giải quyết tranh chấp, tính thuế phí tự động và điểm tin pháp luật cập nhật hàng ngày qua GitHub Actions." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-amber-200">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
+      <div class="flex items-center gap-3">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-900 text-amber-400 shadow-sm">
+          <i data-lucide="scale" class="h-5 w-5"></i>
+        </div>
+        <div>
+          <span class="block text-base font-extrabold tracking-tight text-slate-900">
+            TRA CỨU THỦ TỤC NHÀ ĐẤT
+          </span>
+          <span class="block text-xs font-medium text-slate-500">
+            Luật Đất đai 2024 &bull; Nghị định 101/2024/NĐ-CP &bull; Tự động hóa dữ liệu
+          </span>
+        </div>
+      </div>
+
+      <nav class="hidden items-center gap-6 text-sm font-semibold text-slate-700 md:flex">
+        <a href="#cam-nang-thu-tuc" class="inline-flex items-center gap-1.5 hover:text-amber-600">
+          <i data-lucide="book-open-check" class="h-4 w-4 text-amber-600"></i>
+          Cẩm nang & Checklist
+        </a>
+        <a href="#tinh-thue-phi" class="inline-flex items-center gap-1.5 hover:text-amber-600">
+          <i data-lucide="calculator" class="h-4 w-4 text-emerald-600"></i>
+          Tính Thuế & Phí
+        </a>
+        <a href="#tin-tuc-phap-luat" class="inline-flex items-center gap-1.5 hover:text-amber-600">
+          <i data-lucide="newspaper" class="h-4 w-4 text-amber-600"></i>
+          Tin Pháp Luật (<span id="nav-news-count">0</span>)
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <div class="border-b border-slate-800 bg-slate-900 text-white">
+    <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-12">
+        <div class="lg:col-span-8">
+          <div class="inline-flex items-center gap-2 rounded-full bg-amber-500/15 px-3.5 py-1 text-xs font-semibold text-amber-300 ring-1 ring-amber-400/30">
+            <i data-lucide="shield-check" class="h-4 w-4"></i>
+            Hệ thống tra cứu chuẩn hóa theo Luật Đất đai 2024
+          </div>
+          <h1 class="mt-4 text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl">
+            TRA CỨU THỦ TỤC NHÀ ĐẤT
+          </h1>
+          <p class="mt-2 text-lg font-semibold text-amber-300">
+            Cổng Cẩm Nang Thủ Tục Đất Đai, Sổ Đỏ &amp; Thừa Kế
+          </p>
+          <p class="mt-4 max-w-3xl text-base leading-relaxed text-slate-300">
+            Hướng dẫn chi tiết hồ sơ công chứng, lộ trình liên thông Một cửa &ndash; Thuế, công cụ ước tính Thuế TNCN (2%), Lệ phí trước bạ (0.5%) và điểm tin văn bản pháp luật cập nhật tự động hàng ngày.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#cam-nang-thu-tuc" class="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-5 py-3 text-sm font-bold text-slate-950 shadow-sm transition hover:bg-amber-400">
+              <i data-lucide="file-check-2" class="h-4 w-4"></i>
+              Tra cứu Checklist Hồ sơ
+            </a>
+            <a href="#tinh-thue-phi" class="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-800 px-5 py-3 text-sm font-bold text-white transition hover:bg-slate-700">
+              <i data-lucide="calculator" class="h-4 w-4 text-amber-400"></i>
+              Tính Thuế & Phí Sang Tên
+            </a>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3 lg:col-span-4">
+          <div class="rounded-2xl border border-slate-800 bg-slate-800/70 p-4">
+            <i data-lucide="landmark" class="h-6 w-6 text-amber-400"></i>
+            <div class="mt-2 text-2xl font-extrabold text-white">5 Nhóm</div>
+            <div class="text-xs text-slate-400">Thủ tục trọng tâm (Mua bán, Thừa kế, Tặng cho, Cấp đổi, Tranh chấp)</div>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-800/70 p-4">
+            <i data-lucide="calculator" class="h-6 w-6 text-emerald-400"></i>
+            <div class="mt-2 text-2xl font-extrabold text-white">2% &amp; 0.5%</div>
+            <div class="text-xs text-slate-400">Tự động tính Thuế TNCN, Trước bạ &amp; xét miễn thuế nhân thân</div>
+          </div>
+          <div class="col-span-2 rounded-2xl border border-slate-800 bg-slate-800/70 p-4">
+            <div class="flex items-center justify-between">
+              <span class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-400">
+                <i data-lucide="git-branch" class="h-4 w-4"></i>
+                GitHub Actions CI/CD Scraper
+              </span>
+              <span class="rounded-full bg-emerald-500/20 px-2 py-0.5 text-[11px] font-semibold text-emerald-300">
+                cron: 0 23 * * *
+              </span>
+            </div>
+            <p class="mt-1.5 text-xs text-slate-300">
+              Tự động thu thập bài viết mới lúc 06:00 sáng (GMT+7) và lưu vào <code class="text-amber-300">data/legal_news.json</code>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Workspace -->
+  <main class="mx-auto max-w-7xl space-y-12 px-4 py-10 sm:px-6 lg:px-8">
+    <!-- 1. PROCEDURES HUB -->
+    <section id="cam-nang-thu-tuc" class="scroll-mt-24 space-y-6">
+      <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+          <div>
+            <div class="inline-flex items-center gap-2 rounded-full bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-800 ring-1 ring-amber-200">
+              Chuẩn hóa theo Luật Đất đai 2024 & Nghị định 101/2024/NĐ-CP
+            </div>
+            <h2 class="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
+              Cẩm Nang Thủ Tục Đất Đai & Thừa Kế
+            </h2>
+            <p class="mt-1 text-sm text-slate-600">
+              Tra cứu hồ sơ cần chuẩn bị, đánh dấu tiến độ (tự động lưu trong <code>localStorage</code>) và lộ trình 4 bước giải quyết hành chính.
+            </p>
+          </div>
+          <div class="relative w-full lg:w-96">
+            <input id="proc-search" type="text" placeholder="Tìm thủ tục, mẫu đơn 11/ĐK, di chúc, sổ đỏ..."
+              class="w-full rounded-xl border border-slate-300 bg-slate-50 py-2.5 px-4 text-sm text-slate-900 placeholder:text-slate-400 focus:border-amber-600 focus:bg-white focus:outline-none" />
+          </div>
+        </div>
+        <div id="proc-categories" class="mt-5 flex flex-wrap items-center gap-2 border-t border-slate-100 pt-4"></div>
+      </div>
+
+      <div class="grid grid-cols-1 gap-6 lg:grid-cols-12">
+        <div id="proc-sidebar" class="space-y-3 lg:col-span-4"></div>
+        <div id="proc-detail" class="space-y-6 lg:col-span-8"></div>
+      </div>
+    </section>
+
+    <!-- 2. FEE CALCULATOR -->
+    <section id="tinh-thue-phi" class="scroll-mt-24">
+      <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div>
+          <div class="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-800 ring-1 ring-emerald-200">
+            Công cụ tính toán tự động theo Biểu phí Bộ Tài chính
+          </div>
+          <h2 class="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
+            Bảng Tính Thuế TNCN, Lệ Phí Trước Bạ & Phí Công Chứng
+          </h2>
+          <p class="mt-1 text-sm text-slate-600">
+            Ước tính chính xác nghĩa vụ tài chính khi Chuyển nhượng, Tặng cho, Thừa kế Sổ đỏ kèm xét điều kiện miễn thuế nhân thân trực hệ.
+          </p>
+        </div>
+
+        <div class="mt-6 grid grid-cols-1 gap-8 lg:grid-cols-12">
+          <div class="space-y-5 lg:col-span-7">
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600">1. Loại hình giao dịch nhà đất</label>
+              <div id="calc-tx-types" class="mt-2 grid grid-cols-1 gap-2.5 sm:grid-cols-3"></div>
+            </div>
+
+            <div>
+              <div class="flex items-center justify-between">
+                <label for="calc-value" class="block text-xs font-bold uppercase tracking-wider text-slate-600">
+                  2. Giá trị nhà đất theo Hợp đồng / Bảng giá đất (VNĐ)
+                </label>
+                <span id="calc-value-formatted" class="text-xs font-bold text-amber-700">2.500.000.000 đ</span>
+              </div>
+              <input id="calc-value" type="number" min="0" step="50000000" value="2500000000"
+                class="mt-2 w-full rounded-xl border border-slate-300 bg-white py-3 px-4 text-base font-bold text-slate-900 focus:border-amber-600 focus:outline-none" />
+              <div id="calc-presets" class="mt-2.5 flex flex-wrap items-center gap-2"></div>
+            </div>
+
+            <div class="space-y-3 rounded-xl border border-slate-200 bg-slate-50 p-4">
+              <div class="text-xs font-bold uppercase tracking-wider text-slate-600">3. Điều kiện miễn thuế & Khu vực hành chính</div>
+              <label class="flex cursor-pointer items-start gap-3 rounded-lg border border-slate-200 bg-white p-3 hover:border-amber-400">
+                <input id="calc-family" type="checkbox" class="mt-1 h-4 w-4 rounded border-slate-300 text-amber-600" />
+                <div class="text-xs">
+                  <span class="font-bold text-slate-900">Quan hệ nhân thân trực hệ trong gia đình (Miễn 100% Thuế & Trước bạ)</span>
+                  <p class="mt-0.5 text-slate-600">Áp dụng giữa: Vợ - chồng; Cha mẹ đẻ/nuôi - Con đẻ/nuôi/dâu/rể; Ông bà nội/ngoại - Cháu ruột; Anh chị em ruột.</p>
+                </div>
+              </label>
+              <label id="calc-sole-wrap" class="flex cursor-pointer items-start gap-3 rounded-lg border border-slate-200 bg-white p-3 hover:border-amber-400">
+                <input id="calc-sole" type="checkbox" class="mt-1 h-4 w-4 rounded border-slate-300 text-amber-600" />
+                <div class="text-xs">
+                  <span class="font-bold text-slate-900">Nhà ở, quyền sử dụng đất ở duy nhất (Giữ tối thiểu 183 ngày)</span>
+                  <p class="mt-0.5 text-slate-600">Miễn thuế TNCN 2% cho bên chuyển nhượng theo Khoản 2 Điều 4 Luật Thuế TNCN.</p>
+                </div>
+              </label>
+              <div class="flex items-center justify-between pt-1">
+                <span class="text-xs font-semibold text-slate-700">Khu vực bất động sản:</span>
+                <div class="inline-flex rounded-lg border border-slate-200 bg-white p-0.5">
+                  <button id="btn-urban" type="button" class="rounded-md bg-slate-900 px-3 py-1 text-xs font-semibold text-white">Phường / Đô thị</button>
+                  <button id="btn-rural" type="button" class="rounded-md px-3 py-1 text-xs font-semibold text-slate-600">Xã / Nông thôn</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5">
+            <div id="calc-result" class="flex h-full flex-col justify-between rounded-2xl bg-slate-900 p-6 text-white shadow-lg"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. DYNAMIC LEGAL NEWS -->
+    <section id="tin-tuc-phap-luat" class="scroll-mt-24 space-y-6">
+      <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+          <div>
+            <div class="inline-flex items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold text-amber-400">
+              GitHub Actions Scraper &bull; Cập nhật tự động 06:00 sáng hàng ngày
+            </div>
+            <h2 class="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
+              Điểm Tin Pháp Luật Đất Đai & Văn Bản Mới
+            </h2>
+            <p class="mt-1 text-sm text-slate-600">
+              Dữ liệu được thu thập tự động bởi <code>scripts/legal_scraper.py</code> và lưu tại <code>/data/legal_news.json</code>.
+            </p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <div id="news-sync-badge" class="inline-flex items-center gap-1.5 rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-800"></div>
+            <button id="btn-live-refresh" type="button" class="inline-flex items-center gap-1.5 rounded-xl bg-slate-900 px-3.5 py-2 text-xs font-semibold text-amber-400 hover:bg-slate-800">
+              Làm mới trực tiếp
+            </button>
+          </div>
+        </div>
+
+        <div class="mt-5 flex flex-col gap-3 border-t border-slate-100 pt-4 sm:flex-row sm:items-center sm:justify-between">
+          <div id="news-categories" class="flex flex-wrap items-center gap-1.5"></div>
+          <div class="relative w-full sm:w-72">
+            <input id="news-search" type="text" placeholder="Lọc tin tức, nghị định, thông tư..."
+              class="w-full rounded-xl border border-slate-300 bg-slate-50 py-2 px-3 text-xs text-slate-900 focus:border-amber-600 focus:bg-white focus:outline-none" />
+          </div>
+        </div>
+
+        <div id="news-grid" class="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-16 border-t border-slate-200 bg-white py-8">
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 text-xs text-slate-500 sm:flex-row sm:px-6 lg:px-8">
+      <p>&copy; 2026 Cổng Cẩm Nang Thủ Tục Đất Đai &amp; Thừa Kế. Xây dựng trên Next.js 14 App Router &amp; GitHub Actions.</p>
+      <p class="text-slate-400">Thông tin mang tính chất tham khảo nghiệp vụ hành chính theo Luật Đất đai 2024.</p>
+    </div>
+  </footer>
+
+  <script id="embedded-data" src="./portal-data.js"></script>
+  <script>
+    (function () {
+      const STORAGE_KEY = "land_law_portal_checklist_v1";
+      let procedures = window.__PROCEDURES_DATA__ || [];
+      let legalNews = window.__LEGAL_NEWS_DATA__ || [];
+
+      let procSearch = "";
+      let procCategory = "Tất cả";
+      let activeProcId = procedures[0] ? procedures[0].id : "";
+      let checkedMap = {};
+      try {
+        checkedMap = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}") || {};
+      } catch (e) { checkedMap = {}; }
+
+      let txType = "transfer";
+      let propValue = 2500000000;
+      let isFamily = false;
+      let isSole = false;
+      let isUrban = true;
+
+      let newsCategory = "Tất cả";
+      let newsSearch = "";
+
+      function saveChecked() {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(checkedMap)); } catch (e) {}
+      }
+
+      function formatVnd(n) {
+        return new Intl.NumberFormat("vi-VN").format(Math.round(n)) + " đ";
+      }
+
+      function calculateNotaryFee(v) {
+        if (v <= 0) return 0;
+        const M = 1e6, B = 1e9;
+        let fee = 0;
+        if (v < 50 * M) fee = 50000;
+        else if (v <= 100 * M) fee = 100000;
+        else if (v <= 1 * B) fee = v * 0.001;
+        else if (v <= 3 * B) fee = 1 * M + (v - 1 * B) * 0.0006;
+        else if (v <= 5 * B) fee = 2.2 * M + (v - 3 * B) * 0.0005;
+        else if (v <= 10 * B) fee = 3.2 * M + (v - 5 * B) * 0.0004;
+        else if (v <= 100 * B) fee = 5.2 * M + (v - 10 * B) * 0.0003;
+        else fee = 32.2 * M + (v - 100 * B) * 0.0002;
+        return Math.min(Math.round(fee), 70000000);
+      }
+
+      function renderProcedures() {
+        const cats = ["Tất cả", ...Array.from(new Set(procedures.map(p => p.category)))];
+        const catEl = document.getElementById("proc-categories");
+        catEl.innerHTML = cats.map(c => `
+          <button type="button" data-cat="${c}" class="rounded-lg px-3.5 py-1.5 text-xs font-semibold transition ${
+            procCategory === c ? "bg-slate-900 text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+          }">${c}</button>
+        `).join("");
+        catEl.querySelectorAll("button").forEach(btn => {
+          btn.onclick = () => {
+            procCategory = btn.getAttribute("data-cat");
+            const first = procedures.find(p => procCategory === "Tất cả" || p.category === procCategory);
+            if (first) activeProcId = first.id;
+            renderProcedures();
+          };
+        });
+
+        const q = procSearch.trim().toLowerCase();
+        const filtered = procedures.filter(p => {
+          if (procCategory !== "Tất cả" && p.category !== procCategory) return false;
+          if (!q) return true;
+          return p.title.toLowerCase().includes(q) || p.summary.toLowerCase().includes(q) ||
+            p.checklist.some(i => i.name.toLowerCase().includes(q));
+        });
+
+        const active = filtered.find(p => p.id === activeProcId) || filtered[0] || procedures[0];
+        if (!active) return;
+
+        const sidebarEl = document.getElementById("proc-sidebar");
+        sidebarEl.innerHTML = filtered.map(p => {
+          const isAct = p.id === active.id;
+          const done = p.checklist.filter(i => checkedMap[i.id]).length;
+          return `
+            <button type="button" data-id="${p.id}" class="w-full rounded-2xl border p-4 text-left transition ${
+              isAct ? "border-amber-600 bg-amber-50/60 ring-1 ring-amber-600" : "border-slate-200 bg-white hover:bg-slate-50"
+            }">
+              <div class="flex items-center justify-between gap-2">
+                <span class="rounded-md bg-slate-100 px-2.5 py-0.5 text-[11px] font-semibold text-slate-700">${p.category}</span>
+                <span class="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">${done}/${p.checklist.length} hồ sơ</span>
+              </div>
+              <h3 class="mt-2 font-bold text-slate-900">${p.title}</h3>
+              <p class="mt-1 text-xs text-slate-600">${p.summary}</p>
+            </button>
+          `;
+        }).join("");
+        sidebarEl.querySelectorAll("button").forEach(btn => {
+          btn.onclick = () => {
+            activeProcId = btn.getAttribute("data-id");
+            renderProcedures();
+          };
+        });
+
+        const totalDocs = active.checklist.length;
+        const doneDocs = active.checklist.filter(i => checkedMap[i.id]).length;
+        const pct = totalDocs > 0 ? Math.round((doneDocs / totalDocs) * 100) : 0;
+
+        const detailEl = document.getElementById("proc-detail");
+        detailEl.innerHTML = `
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <span class="rounded-lg bg-slate-900 px-3 py-1 text-xs font-semibold text-amber-400">${active.category}</span>
+              <span class="text-xs text-slate-600">Thời hạn giải quyết: <strong>${active.processingTime}</strong></span>
+            </div>
+            <h3 class="mt-3 text-xl font-bold text-slate-900 sm:text-2xl">${active.title}</h3>
+            <p class="mt-2 text-sm text-slate-600">${active.summary}</p>
+            <div class="mt-4 grid grid-cols-1 gap-4 rounded-xl bg-slate-50 p-4 sm:grid-cols-2">
+              <div>
+                <div class="text-xs font-bold uppercase text-slate-500">Cơ quan có thẩm quyền</div>
+                <p class="mt-1 text-xs font-medium text-slate-800">${active.authority}</p>
+              </div>
+              <div>
+                <div class="text-xs font-bold uppercase text-slate-500">Căn cứ pháp lý</div>
+                <ul class="mt-1 space-y-1 text-xs text-slate-700">
+                  ${active.legalBasis.map(l => `<li>&bull; ${l}</li>`).join("")}
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <div>
+                <h4 class="text-lg font-bold text-slate-900">Checklist Hồ Sơ Cần Chuẩn Bị (Lưu localStorage)</h4>
+                <p class="text-xs text-slate-500">Nhấn vào từng mục để đánh dấu giấy tờ đã chuẩn bị sẵn.</p>
+              </div>
+              <button id="btn-reset-checklist" type="button" class="rounded-lg border border-slate-200 px-3 py-1.5 text-xs font-semibold text-slate-600 hover:bg-slate-100">Đặt lại</button>
+            </div>
+            <div class="mt-4">
+              <div class="flex justify-between text-xs font-semibold">
+                <span>Tiến độ: ${doneDocs}/${totalDocs} tài liệu</span>
+                <span class="${pct === 100 ? "text-emerald-600" : "text-amber-600"}">${pct}% hoàn tất</span>
+              </div>
+              <div class="mt-1.5 h-2.5 w-full overflow-hidden rounded-full bg-slate-100">
+                <div class="h-full ${pct === 100 ? "bg-emerald-600" : "bg-amber-500"}" style="width:${pct}%"></div>
+              </div>
+            </div>
+            <div class="mt-4 space-y-3">
+              ${active.checklist.map(item => {
+                const isChecked = !!checkedMap[item.id];
+                return `
+                  <div data-check-id="${item.id}" class="cursor-pointer rounded-xl border p-4 transition ${
+                    isChecked ? "border-emerald-200 bg-emerald-50/40" : "border-slate-200 bg-white hover:border-amber-300"
+                  }">
+                    <div class="flex items-start justify-between gap-2">
+                      <span class="text-sm font-bold ${isChecked ? "line-through text-slate-500" : "text-slate-900"}">
+                        ${isChecked ? "☑️" : "⬜"} ${item.name}
+                      </span>
+                      <span class="rounded bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-700">${item.copies}</span>
+                    </div>
+                    <p class="mt-1 text-xs text-slate-600">${item.description}</p>
+                    <p class="mt-1 text-[11px] font-medium text-amber-800">Lưu ý: ${item.notes}</p>
+                  </div>
+                `;
+              }).join("")}
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h4 class="text-lg font-bold text-slate-900">Lộ Trình Hành Chính 4 Bước (Công Chứng &rarr; Một Cửa &rarr; Thuế &rarr; Trả Kết Quả)</h4>
+            <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+              ${active.timeline.map(st => `
+                <div class="rounded-xl border border-slate-200 bg-slate-50/60 p-4">
+                  <div class="flex items-center justify-between">
+                    <span class="rounded-lg bg-slate-900 px-2.5 py-1 text-xs font-bold text-amber-400">Bước ${st.step}: ${st.phase}</span>
+                    <span class="rounded bg-amber-100 px-2 py-0.5 text-[11px] font-semibold text-amber-900">${st.duration}</span>
+                  </div>
+                  <h5 class="mt-2.5 text-sm font-bold text-slate-900">${st.title}</h5>
+                  <p class="mt-1 text-xs font-medium text-slate-500">${st.agency}</p>
+                  <p class="mt-1.5 text-xs text-slate-700">${st.description}</p>
+                  <div class="mt-2.5 rounded-lg border border-amber-200 bg-amber-50 p-2 text-[11px] text-amber-900">
+                    <strong>Lưu ý:</strong> ${st.warning}
+                  </div>
+                </div>
+              `).join("")}
+            </div>
+          </div>
+        `;
+
+        detailEl.querySelectorAll("[data-check-id]").forEach(el => {
+          el.onclick = () => {
+            const id = el.getAttribute("data-check-id");
+            checkedMap[id] = !checkedMap[id];
+            saveChecked();
+            renderProcedures();
+          };
+        });
+        const resetBtn = document.getElementById("btn-reset-checklist");
+        if (resetBtn) {
+          resetBtn.onclick = () => {
+            active.checklist.forEach(i => delete checkedMap[i.id]);
+            saveChecked();
+            renderProcedures();
+          };
+        }
+      }
+
+      function renderCalculator() {
+        const txTabs = [
+          { id: "transfer", label: "Chuyển nhượng / Mua bán", desc: "Thuế TNCN 2% + Trước bạ 0.5%" },
+          { id: "gift", label: "Tặng cho BĐS", desc: "Miễn thuế cho người thân trực hệ" },
+          { id: "inheritance", label: "Nhận Thừa kế BĐS", desc: "Theo di chúc hoặc theo pháp luật" }
+        ];
+        const txEl = document.getElementById("calc-tx-types");
+        txEl.innerHTML = txTabs.map(t => `
+          <button type="button" data-tx="${t.id}" class="rounded-xl border p-3.5 text-left transition ${
+            txType === t.id ? "border-slate-900 bg-slate-900 text-white" : "border-slate-200 bg-slate-50 text-slate-800"
+          }">
+            <div class="text-sm font-bold">${t.label}</div>
+            <div class="mt-1 text-[11px] ${txType === t.id ? "text-amber-300" : "text-slate-500"}">${t.desc}</div>
+          </button>
+        `).join("");
+        txEl.querySelectorAll("button").forEach(btn => {
+          btn.onclick = () => {
+            txType = btn.getAttribute("data-tx");
+            renderCalculator();
+          };
+        });
+
+        const presets = [
+          { label: "500 Triệu", value: 500e6 },
+          { label: "1.5 Tỷ", value: 1500e6 },
+          { label: "3 Tỷ", value: 3000e6 },
+          { label: "5 Tỷ", value: 5000e6 },
+          { label: "10 Tỷ", value: 10000e6 },
+        ];
+        const presetEl = document.getElementById("calc-presets");
+        presetEl.innerHTML = `<span class="text-xs text-slate-500">Chọn nhanh:</span>` + presets.map(p => `
+          <button type="button" data-val="${p.value}" class="rounded-lg border px-2.5 py-1 text-xs font-semibold ${
+            propValue === p.value ? "border-amber-600 bg-amber-50 text-amber-800" : "border-slate-200 bg-slate-50 text-slate-700"
+          }">${p.label}</button>
+        `).join("");
+        presetEl.querySelectorAll("button").forEach(b => {
+          b.onclick = () => {
+            propValue = Number(b.getAttribute("data-val"));
+            document.getElementById("calc-value").value = propValue;
+            renderCalculator();
+          };
+        });
+
+        document.getElementById("calc-value-formatted").textContent = formatVnd(propValue);
+        document.getElementById("calc-sole-wrap").style.display = txType === "transfer" ? "flex" : "none";
+
+        let pit = 0, pitNote = "";
+        if (isFamily) {
+          pit = 0;
+          pitNote = "Miễn 100% Thuế TNCN do giao dịch giữa người thân trực hệ (Khoản 1 & 4 Điều 4 Luật Thuế TNCN).";
+        } else if (txType === "transfer" && isSole) {
+          pit = 0;
+          pitNote = "Miễn 100% Thuế TNCN do chuyển nhượng nhà ở, đất ở duy nhất (Khoản 2 Điều 4 Luật Thuế TNCN).";
+        } else if (txType === "transfer") {
+          pit = propValue * 0.02;
+          pitNote = "2% trên giá trị chuyển nhượng (Điều 17 Thông tư 92/2015/TT-BTC).";
+        } else {
+          pit = Math.max(0, propValue - 10e6) * 0.1;
+          pitNote = "10% trên phần giá trị vượt 10 triệu đồng đối với tặng cho/thừa kế ngoài quan hệ trực hệ.";
+        }
+
+        let reg = 0, regNote = "";
+        if (isFamily && (txType === "gift" || txType === "inheritance")) {
+          reg = 0;
+          regNote = "Miễn 100% Lệ phí trước bạ khi thừa kế/tặng cho giữa người thân trực hệ (Khoản 10 Điều 10 Nghị định 10/2022/NĐ-CP).";
+        } else {
+          reg = Math.min(propValue * 0.005, 500e6);
+          regNote = "0.5% giá trị nhà đất (Tối đa 500 triệu đồng/tài sản).";
+        }
+
+        const notary = calculateNotaryFee(propValue);
+        const appraisal = propValue > 0 ? Math.min(Math.max(propValue * 0.0015, isUrban ? 500000 : 300000), isUrban ? 5000000 : 2500000) : 0;
+        const cert = isUrban ? 100000 : 50000;
+        const total = pit + reg + notary + appraisal + cert;
+
+        document.getElementById("calc-result").innerHTML = `
+          <div>
+            <div class="border-b border-slate-800 pb-4">
+              <span class="text-xs font-semibold uppercase tracking-wider text-amber-400">Tổng chi phí sang tên dự kiến</span>
+              <div class="mt-1 text-3xl font-extrabold text-white">${formatVnd(total)}</div>
+            </div>
+            <div class="mt-5 space-y-3.5">
+              <div class="rounded-xl bg-slate-800/80 p-3.5">
+                <div class="flex justify-between text-sm font-bold">
+                  <span>1. Thuế TNCN</span>
+                  <span class="${pit === 0 ? "text-emerald-400" : "text-amber-300"}">${pit === 0 ? "0 đ (Được miễn)" : formatVnd(pit)}</span>
+                </div>
+                <p class="mt-1 text-[11px] text-slate-300">${pitNote}</p>
+              </div>
+              <div class="rounded-xl bg-slate-800/80 p-3.5">
+                <div class="flex justify-between text-sm font-bold">
+                  <span>2. Lệ phí trước bạ (0.5%)</span>
+                  <span class="${reg === 0 ? "text-emerald-400" : "text-amber-300"}">${reg === 0 ? "0 đ (Được miễn)" : formatVnd(reg)}</span>
+                </div>
+                <p class="mt-1 text-[11px] text-slate-300">${regNote}</p>
+              </div>
+              <div class="rounded-xl bg-slate-800/80 p-3.5">
+                <div class="flex justify-between text-sm font-bold">
+                  <span>3. Phí công chứng hợp đồng</span>
+                  <span>${formatVnd(notary)}</span>
+                </div>
+                <p class="mt-1 text-[11px] text-slate-300">Biểu phí lũy tiến Thông tư 257/2016/TT-BTC.</p>
+              </div>
+              <div class="rounded-xl bg-slate-800/80 p-3.5">
+                <div class="flex justify-between text-sm font-bold">
+                  <span>4. Phí thẩm định & Cấp phôi Sổ mới</span>
+                  <span>${formatVnd(appraisal + cert)}</span>
+                </div>
+                <p class="mt-1 text-[11px] text-slate-300">Phí thẩm định (${formatVnd(appraisal)}) + Lệ phí cấp đổi GCN (${formatVnd(cert)}).</p>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      function renderNews() {
+        document.getElementById("nav-news-count").textContent = legalNews.length;
+        const latest = legalNews[0] && legalNews[0].scrapedAt ? legalNews[0].scrapedAt.replace("T", " ").slice(0, 16) : "Hôm nay";
+        document.getElementById("news-sync-badge").textContent = "Đồng bộ gần nhất: " + latest + " (" + legalNews.length + " bài viết)";
+
+        const cats = ["Tất cả", ...Array.from(new Set(legalNews.map(n => n.category)))];
+        const catEl = document.getElementById("news-categories");
+        catEl.innerHTML = cats.map(c => `
+          <button type="button" data-ncat="${c}" class="rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
+            newsCategory === c ? "bg-amber-600 text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+          }">${c}</button>
+        `).join("");
+        catEl.querySelectorAll("button").forEach(b => {
+          b.onclick = () => {
+            newsCategory = b.getAttribute("data-ncat");
+            renderNews();
+          };
+        });
+
+        const q = newsSearch.trim().toLowerCase();
+        const filtered = legalNews.filter(n => {
+          if (newsCategory !== "Tất cả" && n.category !== newsCategory) return false;
+          if (!q) return true;
+          return n.title.toLowerCase().includes(q) || n.summary.toLowerCase().includes(q);
+        });
+
+        document.getElementById("news-grid").innerHTML = filtered.map(item => `
+          <article class="flex flex-col justify-between rounded-xl border border-slate-200 bg-slate-50/50 p-5 transition hover:border-amber-400 hover:bg-white hover:shadow-md">
+            <div>
+              <div class="flex items-center justify-between text-xs">
+                <span class="rounded-md bg-amber-100 px-2.5 py-0.5 font-semibold text-amber-900">${item.category}</span>
+                <span class="text-slate-500">${item.publishedDate}</span>
+              </div>
+              <h3 class="mt-3 text-base font-bold text-slate-900 hover:text-amber-700">
+                <a href="${item.sourceUrl}" target="_blank" rel="noopener noreferrer">${item.title}</a>
+              </h3>
+              <p class="mt-2 text-xs leading-relaxed text-slate-600">${item.summary}</p>
+            </div>
+            <div class="mt-4 flex items-center justify-between border-t border-slate-200/70 pt-3 text-xs">
+              <span class="font-semibold text-slate-500">${item.sourceName || "Nguồn Pháp Luật"}</span>
+              <a href="${item.sourceUrl}" target="_blank" rel="noopener noreferrer" class="font-bold text-amber-700 hover:text-amber-800">Xem toàn văn &rarr;</a>
+            </div>
+          </article>
+        `).join("");
+      }
+
+      document.getElementById("proc-search").oninput = (e) => { procSearch = e.target.value; renderProcedures(); };
+      document.getElementById("calc-value").oninput = (e) => { propValue = Math.max(0, Number(e.target.value) || 0); renderCalculator(); };
+      document.getElementById("calc-family").onchange = (e) => { isFamily = e.target.checked; renderCalculator(); };
+      document.getElementById("calc-sole").onchange = (e) => { isSole = e.target.checked; renderCalculator(); };
+      document.getElementById("btn-urban").onclick = () => {
+        isUrban = true;
+        document.getElementById("btn-urban").className = "rounded-md bg-slate-900 px-3 py-1 text-xs font-semibold text-white";
+        document.getElementById("btn-rural").className = "rounded-md px-3 py-1 text-xs font-semibold text-slate-600";
+        renderCalculator();
+      };
+      document.getElementById("btn-rural").onclick = () => {
+        isUrban = false;
+        document.getElementById("btn-rural").className = "rounded-md bg-slate-900 px-3 py-1 text-xs font-semibold text-white";
+        document.getElementById("btn-urban").className = "rounded-md px-3 py-1 text-xs font-semibold text-slate-600";
+        renderCalculator();
+      };
+      document.getElementById("news-search").oninput = (e) => { newsSearch = e.target.value; renderNews(); };
+
+      async function fetchLiveBrowserRss() {
+        const btn = document.getElementById("btn-live-refresh");
+        if (btn) btn.textContent = "Đang quét RSS...";
+        try {
+          const res = await fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://vnexpress.net/rss/phap-luat.rss"));
+          if (res.ok) {
+            const data = await res.json();
+            if (data && Array.isArray(data.items)) {
+              const kw = ["đất", "sổ đỏ", "sổ hồng", "thừa kế", "di chúc", "tặng cho", "chuyển nhượng", "nhà", "bất động sản", "thuế", "công chứng", "tranh chấp"];
+              const seen = new Set(legalNews.map(n => n.sourceUrl));
+              data.items.forEach((it, idx) => {
+                const text = ((it.title || "") + " " + (it.description || "")).toLowerCase();
+                if (kw.some(k => text.includes(k)) && !seen.has(it.link)) {
+                  seen.add(it.link);
+                  legalNews.unshift({
+                    id: "live-" + idx + "-" + Date.now(),
+                    title: it.title,
+                    summary: (it.description || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 280),
+                    sourceUrl: it.link,
+                    sourceName: "VnExpress Pháp Luật (Trực tiếp)",
+                    category: "Chính sách mới",
+                    publishedDate: (it.pubDate || "").slice(0, 10) || "Hôm nay",
+                    scrapedAt: new Date().toISOString()
+                  });
+                }
+              });
+              renderNews();
+            }
+          }
+        } catch (e) {
+          // Offline or blocked: keep pre-scraped data
+        } finally {
+          if (btn) btn.textContent = "Làm mới trực tiếp";
+        }
+      }
+
+      const refreshBtn = document.getElementById("btn-live-refresh");
+      if (refreshBtn) refreshBtn.onclick = fetchLiveBrowserRss;
+
+      renderProcedures();
+      renderCalculator();
+      renderNews();
+      fetchLiveBrowserRss();
+      if (window.lucide) window.lucide.createIcons();
+    })();
+  </script>
+</body>
+</html>
