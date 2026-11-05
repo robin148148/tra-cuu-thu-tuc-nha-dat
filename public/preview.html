@@ -387,7 +387,6 @@
         const active = filtered.find(p => p.id === activeProcId) || filtered[0] || procedures[0];
         if (!active) return;
 
-        const sidebarEl = document.getElementById("proc-sidebar");
         sidebarEl.innerHTML = filtered.map(p => {
           const isAct = p.id === active.id;
           const done = p.checklist.filter(i => checkedMap[i.id]).length;
