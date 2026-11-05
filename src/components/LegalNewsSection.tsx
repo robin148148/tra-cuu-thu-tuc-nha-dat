@@ -7,8 +7,10 @@ import {
   ExternalLink,
   Newspaper,
   RefreshCw,
+  RotateCcw,
   Search,
   Tag,
+  X,
 } from "lucide-react";
 import type { LegalNewsItem } from "@/types/legal";
 
@@ -19,6 +21,7 @@ interface LegalNewsSectionProps {
 export default function LegalNewsSection({ news }: LegalNewsSectionProps) {
   const [articles, setArticles] = useState<LegalNewsItem[]>(news);
   const [selectedCategory, setSelectedCategory] = useState<string>("Tất cả");
+  const [searchInput, setSearchInput] = useState<string>("");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [isRefreshing, setIsRefreshing] = useState<boolean>(false);
 
@@ -119,6 +122,14 @@ export default function LegalNewsSection({ news }: LegalNewsSectionProps) {
     return ["Tất cả", ...unique];
   }, [articles]);
 
+  const categoryCounts = useMemo(() => {
+    const counts: Record<string, number> = { "Tất cả": articles.length };
+    for (const item of articles) {
+      counts[item.category] = (counts[item.category] || 0) + 1;
+    }
+    return counts;
+  }, [articles]);
+
   const filteredNews = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
     return articles.filter((item) => {
@@ -129,10 +140,36 @@ export default function LegalNewsSection({ news }: LegalNewsSectionProps) {
       return (
         item.title.toLowerCase().includes(q) ||
         item.summary.toLowerCase().includes(q) ||
+        item.category.toLowerCase().includes(q) ||
         (item.sourceName ?? "").toLowerCase().includes(q)
       );
     });
   }, [articles, selectedCategory, searchQuery]);
+
+  const handleSearchSubmit = (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
+    const trimmed = searchInput.trim();
+    setSearchQuery(trimmed);
+    if (trimmed) {
+      setSelectedCategory("Tất cả");
+    }
+  };
+
+  const handleResetAll = () => {
+    setSearchInput("");
+    setSearchQuery("");
+    setSelectedCategory("Tất cả");
+  };
+
+  const handleSelectCategory = (cat: string) => {
+    if (cat === "Tất cả") {
+      setSearchInput("");
+      setSearchQuery("");
+      setSelectedCategory("Tất cả");
+      return;
+    }
+    setSelectedCategory(cat);
+  };
 
   const latestScrapeTime = useMemo(() => {
     const timestamps = articles
@@ -191,90 +228,144 @@ export default function LegalNewsSection({ news }: LegalNewsSectionProps) {
         </div>
 
         {/* Filter & Search Bar */}
-        <div className="mt-5 flex flex-col gap-3 border-t border-slate-100 pt-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-5 flex flex-col gap-3 border-t border-slate-100 pt-4 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-wrap items-center gap-1.5">
             {categories.map((cat) => {
-              const active = selectedCategory === cat;
+              const active =
+                selectedCategory === cat &&
+                (cat !== "Tất cả" || searchQuery.trim() === "");
+              const count = categoryCounts[cat] ?? 0;
               return (
                 <button
                   key={cat}
                   type="button"
-                  onClick={() => setSelectedCategory(cat)}
-                  className={`rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
+                  onClick={() => handleSelectCategory(cat)}
+                  className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
                     active
                       ? "bg-amber-600 text-white shadow-sm"
                       : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                   }`}
                 >
-                  {cat}
+                  <span>{cat}</span>
+                  <span
+                    className={`rounded-full px-1.5 py-0.2 text-[10px] ${
+                      active
+                        ? "bg-white text-amber-900 font-bold"
+                        : "bg-slate-200 text-slate-600"
+                    }`}
+                  >
+                    {count}
+                  </span>
                 </button>
               );
             })}
           </div>
 
-          <div className="relative w-full sm:w-72">
-            <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Lọc tin tức, nghị định, thông tư..."
-              className="w-full rounded-xl border border-slate-300 bg-slate-50 py-2 pl-9 pr-3 text-xs text-slate-900 placeholder:text-slate-400 focus:border-amber-600 focus:bg-white focus:outline-none"
-            />
-          </div>
+          <form
+            onSubmit={handleSearchSubmit}
+            className="flex w-full items-center gap-2 lg:w-96"
+          >
+            <div className="relative flex-1">
+              <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+              <input
+                type="text"
+                value={searchInput}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setSearchInput(val);
+                  setSearchQuery(val);
+                }}
+                placeholder="Lọc tin tức, nghị định, thông tư..."
+                className="w-full rounded-xl border border-slate-300 bg-slate-50 py-2 pl-9 pr-8 text-xs text-slate-900 placeholder:text-slate-400 focus:border-amber-600 focus:bg-white focus:outline-none"
+              />
+              {searchInput && (
+                <button
+                  type="button"
+                  onClick={handleResetAll}
+                  title="Xóa từ khóa"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full p-0.5 text-slate-400 hover:bg-slate-200 hover:text-slate-700"
+                >
+                  <X className="h-3.5 w-3.5" />
+                </button>
+              )}
+            </div>
+            <button
+              type="submit"
+              className="inline-flex shrink-0 items-center gap-1 rounded-xl bg-amber-600 px-3.5 py-2 text-xs font-bold text-white shadow-sm transition hover:bg-amber-700"
+            >
+              <Search className="h-3.5 w-3.5" />
+              Tìm kiếm
+            </button>
+          </form>
         </div>
 
         {/* Articles Grid */}
-        <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {filteredNews.map((item) => (
-            <article
-              key={item.id}
-              className="group flex flex-col justify-between rounded-xl border border-slate-200 bg-slate-50/50 p-5 transition-all hover:border-amber-400 hover:bg-white hover:shadow-md"
+        {filteredNews.length === 0 ? (
+          <div className="mt-6 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-8 text-center">
+            <p className="text-sm font-medium text-slate-700">
+              Không tìm thấy bài viết nào khớp với từ khóa &ldquo;{searchQuery}&rdquo;
+            </p>
+            <button
+              type="button"
+              onClick={handleResetAll}
+              className="mt-3 inline-flex items-center gap-1.5 rounded-lg bg-amber-600 px-4 py-2 text-xs font-bold text-white hover:bg-amber-700"
             >
-              <div>
-                <div className="flex items-center justify-between gap-2 text-xs">
-                  <span className="inline-flex items-center gap-1 rounded-md bg-amber-100/80 px-2.5 py-0.5 font-semibold text-amber-900">
-                    <Tag className="h-3 w-3" />
-                    {item.category}
-                  </span>
-                  <span className="inline-flex items-center gap-1 text-slate-500">
-                    <Calendar className="h-3.5 w-3.5" />
-                    {item.publishedDate}
-                  </span>
+              <RotateCcw className="h-3.5 w-3.5" />
+              Hiện tất cả ({articles.length} bài viết)
+            </button>
+          </div>
+        ) : (
+          <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {filteredNews.map((item) => (
+              <article
+                key={item.id}
+                className="group flex flex-col justify-between rounded-xl border border-slate-200 bg-slate-50/50 p-5 transition-all hover:border-amber-400 hover:bg-white hover:shadow-md"
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-2 text-xs">
+                    <span className="inline-flex items-center gap-1 rounded-md bg-amber-100/80 px-2.5 py-0.5 font-semibold text-amber-900">
+                      <Tag className="h-3 w-3" />
+                      {item.category}
+                    </span>
+                    <span className="inline-flex items-center gap-1 text-slate-500">
+                      <Calendar className="h-3.5 w-3.5" />
+                      {item.publishedDate}
+                    </span>
+                  </div>
+
+                  <h3 className="mt-3 line-clamp-2 text-base font-bold text-slate-900 group-hover:text-amber-700">
+                    <a
+                      href={item.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {item.title}
+                    </a>
+                  </h3>
+
+                  <p className="mt-2 line-clamp-3 text-xs leading-relaxed text-slate-600">
+                    {item.summary}
+                  </p>
                 </div>
 
-                <h3 className="mt-3 line-clamp-2 text-base font-bold text-slate-900 group-hover:text-amber-700">
+                <div className="mt-4 flex items-center justify-between border-t border-slate-200/70 pt-3 text-xs">
+                  <span className="font-semibold text-slate-500">
+                    {item.sourceName || "Nguồn Pháp Luật"}
+                  </span>
                   <a
                     href={item.sourceUrl}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800"
                   >
-                    {item.title}
+                    Xem toàn văn
+                    <ExternalLink className="h-3.5 w-3.5" />
                   </a>
-                </h3>
-
-                <p className="mt-2 line-clamp-3 text-xs leading-relaxed text-slate-600">
-                  {item.summary}
-                </p>
-              </div>
-
-              <div className="mt-4 flex items-center justify-between border-t border-slate-200/70 pt-3 text-xs">
-                <span className="font-semibold text-slate-500">
-                  {item.sourceName || "Nguồn Pháp Luật"}
-                </span>
-                <a
-                  href={item.sourceUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 font-bold text-amber-700 hover:text-amber-800"
-                >
-                  Xem toàn văn
-                  <ExternalLink className="h-3.5 w-3.5" />
-                </a>
-              </div>
-            </article>
-          ))}
-        </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );

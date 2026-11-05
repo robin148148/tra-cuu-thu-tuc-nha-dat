@@ -126,10 +126,17 @@
               Tra cứu hồ sơ cần chuẩn bị, đánh dấu tiến độ (tự động lưu trong <code>localStorage</code>) và lộ trình 4 bước giải quyết hành chính.
             </p>
           </div>
-          <div class="relative w-full lg:w-96">
-            <input id="proc-search" type="text" placeholder="Tìm thủ tục, mẫu đơn 11/ĐK, di chúc, sổ đỏ..."
-              class="w-full rounded-xl border border-slate-300 bg-slate-50 py-2.5 px-4 text-sm text-slate-900 placeholder:text-slate-400 focus:border-amber-600 focus:bg-white focus:outline-none" />
-          </div>
+          <form id="proc-search-form" class="flex w-full items-center gap-2 lg:w-[460px]">
+            <div class="relative flex-1">
+              <input id="proc-search" type="text" placeholder="Tìm thủ tục, mẫu đơn 11/ĐK, di chúc, sổ đỏ..."
+                class="w-full rounded-xl border border-slate-300 bg-slate-50 py-2.5 pl-4 pr-9 text-sm text-slate-900 placeholder:text-slate-400 focus:border-amber-600 focus:bg-white focus:outline-none" />
+              <button id="proc-search-clear" type="button" title="Xóa từ khóa"
+                class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 rounded-full px-1.5 py-0.5 text-xs font-bold text-slate-400 hover:bg-slate-200 hover:text-slate-700">✕</button>
+            </div>
+            <button type="submit" class="inline-flex shrink-0 items-center gap-1.5 rounded-xl bg-amber-600 px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-amber-700">
+              Tìm kiếm
+            </button>
+          </form>
         </div>
         <div id="proc-categories" class="mt-5 flex flex-wrap items-center gap-2 border-t border-slate-100 pt-4"></div>
       </div>
@@ -230,12 +237,19 @@
           </div>
         </div>
 
-        <div class="mt-5 flex flex-col gap-3 border-t border-slate-100 pt-4 sm:flex-row sm:items-center sm:justify-between">
+        <div class="mt-5 flex flex-col gap-3 border-t border-slate-100 pt-4 lg:flex-row lg:items-center lg:justify-between">
           <div id="news-categories" class="flex flex-wrap items-center gap-1.5"></div>
-          <div class="relative w-full sm:w-72">
-            <input id="news-search" type="text" placeholder="Lọc tin tức, nghị định, thông tư..."
-              class="w-full rounded-xl border border-slate-300 bg-slate-50 py-2 px-3 text-xs text-slate-900 focus:border-amber-600 focus:bg-white focus:outline-none" />
-          </div>
+          <form id="news-search-form" class="flex w-full items-center gap-2 lg:w-96">
+            <div class="relative flex-1">
+              <input id="news-search" type="text" placeholder="Lọc tin tức, nghị định, thông tư..."
+                class="w-full rounded-xl border border-slate-300 bg-slate-50 py-2 pl-3 pr-8 text-xs text-slate-900 focus:border-amber-600 focus:bg-white focus:outline-none" />
+              <button id="news-search-clear" type="button" title="Xóa từ khóa"
+                class="hidden absolute right-2 top-1/2 -translate-y-1/2 rounded-full px-1.5 py-0.5 text-xs font-bold text-slate-400 hover:bg-slate-200 hover:text-slate-700">✕</button>
+            </div>
+            <button type="submit" class="inline-flex shrink-0 items-center gap-1 rounded-xl bg-amber-600 px-3.5 py-2 text-xs font-bold text-white shadow-sm transition hover:bg-amber-700">
+              Tìm kiếm
+            </button>
+          </form>
         </div>
 
         <div id="news-grid" class="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
@@ -298,18 +312,41 @@
       }
 
       function renderProcedures() {
+        const clearBtn = document.getElementById("proc-search-clear");
+        if (clearBtn) {
+          clearBtn.classList.toggle("hidden", !procSearch);
+        }
+
         const cats = ["Tất cả", ...Array.from(new Set(procedures.map(p => p.category)))];
+        const catCounts = { "Tất cả": procedures.length };
+        procedures.forEach(p => { catCounts[p.category] = (catCounts[p.category] || 0) + 1; });
+
         const catEl = document.getElementById("proc-categories");
-        catEl.innerHTML = cats.map(c => `
-          <button type="button" data-cat="${c}" class="rounded-lg px-3.5 py-1.5 text-xs font-semibold transition ${
-            procCategory === c ? "bg-slate-900 text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
-          }">${c}</button>
-        `).join("");
+        catEl.innerHTML = cats.map(c => {
+          const isSelected = procCategory === c && (c !== "Tất cả" || procSearch.trim() === "");
+          return `
+            <button type="button" data-cat="${c}" class="inline-flex items-center gap-1.5 rounded-lg px-3.5 py-1.5 text-xs font-semibold transition ${
+              isSelected ? "bg-slate-900 text-white shadow-sm" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+            }">
+              <span>${c}</span>
+              <span class="rounded-full px-1.5 text-[10px] ${isSelected ? "bg-amber-500 text-slate-950 font-bold" : "bg-slate-200 text-slate-600"}">${catCounts[c] || 0}</span>
+            </button>
+          `;
+        }).join("");
         catEl.querySelectorAll("button").forEach(btn => {
           btn.onclick = () => {
-            procCategory = btn.getAttribute("data-cat");
-            const first = procedures.find(p => procCategory === "Tất cả" || p.category === procCategory);
-            if (first) activeProcId = first.id;
+            const picked = btn.getAttribute("data-cat");
+            if (picked === "Tất cả") {
+              procSearch = "";
+              const inp = document.getElementById("proc-search");
+              if (inp) inp.value = "";
+              procCategory = "Tất cả";
+              if (procedures[0]) activeProcId = procedures[0].id;
+            } else {
+              procCategory = picked;
+              const first = procedures.find(p => p.category === procCategory);
+              if (first) activeProcId = first.id;
+            }
             renderProcedures();
           };
         });
@@ -318,9 +355,34 @@
         const filtered = procedures.filter(p => {
           if (procCategory !== "Tất cả" && p.category !== procCategory) return false;
           if (!q) return true;
-          return p.title.toLowerCase().includes(q) || p.summary.toLowerCase().includes(q) ||
-            p.checklist.some(i => i.name.toLowerCase().includes(q));
+          return p.title.toLowerCase().includes(q) ||
+            p.category.toLowerCase().includes(q) ||
+            p.summary.toLowerCase().includes(q) ||
+            p.checklist.some(i => i.name.toLowerCase().includes(q) || i.description.toLowerCase().includes(q)) ||
+            p.legalBasis.some(l => l.toLowerCase().includes(q));
         });
+
+        const sidebarEl = document.getElementById("proc-sidebar");
+        if (filtered.length === 0) {
+          sidebarEl.innerHTML = `
+            <div class="rounded-2xl border border-dashed border-slate-300 bg-white p-6 text-center">
+              <p class="text-sm font-medium text-slate-700">Không tìm thấy thủ tục phù hợp với "${procSearch}"</p>
+              <button id="btn-proc-empty-reset" type="button" class="mt-3 rounded-lg bg-amber-600 px-3.5 py-2 text-xs font-bold text-white hover:bg-amber-700">Xem tất cả thủ tục</button>
+            </div>
+          `;
+          const emptyBtn = document.getElementById("btn-proc-empty-reset");
+          if (emptyBtn) {
+            emptyBtn.onclick = () => {
+              procSearch = "";
+              document.getElementById("proc-search").value = "";
+              procCategory = "Tất cả";
+              if (procedures[0]) activeProcId = procedures[0].id;
+              renderProcedures();
+            };
+          }
+          document.getElementById("proc-detail").innerHTML = "";
+          return;
+        }
 
         const active = filtered.find(p => p.id === activeProcId) || filtered[0] || procedures[0];
         if (!active) return;
@@ -569,20 +631,42 @@
       }
 
       function renderNews() {
+        const nClearBtn = document.getElementById("news-search-clear");
+        if (nClearBtn) {
+          nClearBtn.classList.toggle("hidden", !newsSearch);
+        }
+
         document.getElementById("nav-news-count").textContent = legalNews.length;
         const latest = legalNews[0] && legalNews[0].scrapedAt ? legalNews[0].scrapedAt.replace("T", " ").slice(0, 16) : "Hôm nay";
         document.getElementById("news-sync-badge").textContent = "Đồng bộ gần nhất: " + latest + " (" + legalNews.length + " bài viết)";
 
         const cats = ["Tất cả", ...Array.from(new Set(legalNews.map(n => n.category)))];
+        const catCounts = { "Tất cả": legalNews.length };
+        legalNews.forEach(n => { catCounts[n.category] = (catCounts[n.category] || 0) + 1; });
+
         const catEl = document.getElementById("news-categories");
-        catEl.innerHTML = cats.map(c => `
-          <button type="button" data-ncat="${c}" class="rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
-            newsCategory === c ? "bg-amber-600 text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
-          }">${c}</button>
-        `).join("");
+        catEl.innerHTML = cats.map(c => {
+          const isAct = newsCategory === c && (c !== "Tất cả" || newsSearch.trim() === "");
+          return `
+            <button type="button" data-ncat="${c}" class="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
+              isAct ? "bg-amber-600 text-white shadow-sm" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+            }">
+              <span>${c}</span>
+              <span class="rounded-full px-1.5 text-[10px] ${isAct ? "bg-white text-amber-900 font-bold" : "bg-slate-200 text-slate-600"}">${catCounts[c] || 0}</span>
+            </button>
+          `;
+        }).join("");
         catEl.querySelectorAll("button").forEach(b => {
           b.onclick = () => {
-            newsCategory = b.getAttribute("data-ncat");
+            const picked = b.getAttribute("data-ncat");
+            if (picked === "Tất cả") {
+              newsSearch = "";
+              const inp = document.getElementById("news-search");
+              if (inp) inp.value = "";
+              newsCategory = "Tất cả";
+            } else {
+              newsCategory = picked;
+            }
             renderNews();
           };
         });
@@ -591,8 +675,30 @@
         const filtered = legalNews.filter(n => {
           if (newsCategory !== "Tất cả" && n.category !== newsCategory) return false;
           if (!q) return true;
-          return n.title.toLowerCase().includes(q) || n.summary.toLowerCase().includes(q);
+          return n.title.toLowerCase().includes(q) ||
+            n.summary.toLowerCase().includes(q) ||
+            (n.category || "").toLowerCase().includes(q) ||
+            (n.sourceName || "").toLowerCase().includes(q);
         });
+
+        if (filtered.length === 0) {
+          document.getElementById("news-grid").innerHTML = `
+            <div class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-8 text-center">
+              <p class="text-sm font-medium text-slate-700">Không tìm thấy bài viết nào khớp với "${newsSearch}"</p>
+              <button id="btn-news-empty-reset" type="button" class="mt-3 rounded-lg bg-amber-600 px-4 py-2 text-xs font-bold text-white hover:bg-amber-700">Hiện tất cả (${legalNews.length} bài viết)</button>
+            </div>
+          `;
+          const nEmptyBtn = document.getElementById("btn-news-empty-reset");
+          if (nEmptyBtn) {
+            nEmptyBtn.onclick = () => {
+              newsSearch = "";
+              document.getElementById("news-search").value = "";
+              newsCategory = "Tất cả";
+              renderNews();
+            };
+          }
+          return;
+        }
 
         document.getElementById("news-grid").innerHTML = filtered.map(item => `
           <article class="flex flex-col justify-between rounded-xl border border-slate-200 bg-slate-50/50 p-5 transition hover:border-amber-400 hover:bg-white hover:shadow-md">
@@ -615,6 +721,20 @@
       }
 
       document.getElementById("proc-search").oninput = (e) => { procSearch = e.target.value; renderProcedures(); };
+      document.getElementById("proc-search-form").onsubmit = (e) => {
+        e.preventDefault();
+        procSearch = document.getElementById("proc-search").value;
+        if (procSearch.trim()) procCategory = "Tất cả";
+        renderProcedures();
+      };
+      document.getElementById("proc-search-clear").onclick = () => {
+        procSearch = "";
+        document.getElementById("proc-search").value = "";
+        procCategory = "Tất cả";
+        if (procedures[0]) activeProcId = procedures[0].id;
+        renderProcedures();
+      };
+
       document.getElementById("calc-value").oninput = (e) => { propValue = Math.max(0, Number(e.target.value) || 0); renderCalculator(); };
       document.getElementById("calc-family").onchange = (e) => { isFamily = e.target.checked; renderCalculator(); };
       document.getElementById("calc-sole").onchange = (e) => { isSole = e.target.checked; renderCalculator(); };
@@ -630,7 +750,20 @@
         document.getElementById("btn-urban").className = "rounded-md px-3 py-1 text-xs font-semibold text-slate-600";
         renderCalculator();
       };
+
       document.getElementById("news-search").oninput = (e) => { newsSearch = e.target.value; renderNews(); };
+      document.getElementById("news-search-form").onsubmit = (e) => {
+        e.preventDefault();
+        newsSearch = document.getElementById("news-search").value;
+        if (newsSearch.trim()) newsCategory = "Tất cả";
+        renderNews();
+      };
+      document.getElementById("news-search-clear").onclick = () => {
+        newsSearch = "";
+        document.getElementById("news-search").value = "";
+        newsCategory = "Tất cả";
+        renderNews();
+      };
 
       async function fetchLiveBrowserRss() {
         const btn = document.getElementById("btn-live-refresh");
