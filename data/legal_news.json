@@ -1,5 +1,115 @@
 [
   {
+    "id": "news-3e8b2a66967a",
+    "title": "Mua đất sang tay nhưng 'lách' luật, chỉ lập hợp đồng người bán đầu, người mua cuối",
+    "summary": "2 người dùng hợp đồng chuyển nhượng quyền sử dụng đất chỉ thể hiện giao dịch trực tiếp từ người bán đầu tiên đến người mua cuối cùng, bỏ qua các giao dịch trung gian.",
+    "sourceUrl": "https://tuoitre.vn/mua-dat-sang-tay-nhung-lach-luat-chi-lap-hop-dong-nguoi-ban-dau-nguoi-mua-cuoi-100261107191054015.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-08",
+    "scrapedAt": "2026-11-08T09:15:27+07:00"
+  },
+  {
+    "id": "news-d62bc544efbd",
+    "title": "Nhận tìm mua giúp nhà ở nước ngoài rồi lừa lấy hơn 11 tỉ chi tiêu",
+    "summary": "Cơ quan Cảnh sát điều tra Công an tỉnh Vĩnh Long đã khởi tố, bắt tạm giam người đàn ông 45 tuổi về hành vi lừa đảo chiếm đoạt trên 11 tỉ đồng.",
+    "sourceUrl": "https://tuoitre.vn/nhan-tim-mua-giup-nha-o-nuoc-ngoai-roi-lua-lay-hon-11-ti-chi-tieu-100261107165352713.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-08",
+    "scrapedAt": "2026-11-08T09:15:27+07:00"
+  },
+  {
+    "id": "news-17fe8d6a9fb1",
+    "title": "Chính phủ yêu cầu báo cáo \"sức khỏe\" thị trường bất động sản trong tháng 11",
+    "summary": "(Dân trí) - Bộ Xây dựng được giao báo cáo Thủ tướng Chính phủ trong tháng 11 về nguồn cung, thanh khoản, giá cả, giao dịch và tồn kho bất động sản.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/chinh-phu-yeu-cau-bao-cao-suc-khoe-thi-truong-bat-dong-san-trong-thang-11-20261107224728519.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-08",
+    "scrapedAt": "2026-11-08T09:15:26+07:00"
+  },
+  {
+    "id": "news-b79c400e8fb0",
+    "title": "VKS: Bố mẹ Mr Pips 'lương 30 triệu, không thể có tài sản trăm tỷ'",
+    "summary": "Trước đề nghị trả lại 40 tỷ đồng, 34 cây vàng và 9 bất động sản cho bố mẹ Mr Pips, VKS cho rằng thu nhập của hai người không đủ để tích lũy khối tài sản này.",
+    "sourceUrl": "https://vnexpress.net/vks-bo-me-mr-pips-luong-30-trieu-khong-the-co-tai-san-tram-ty-5141968.html",
+    "sourceName": "VnExpress Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-08",
+    "scrapedAt": "2026-11-08T09:15:21+07:00"
+  },
+  {
+    "id": "news-f3cfdec2c78e",
+    "title": "Người phụ nữ bị lừa hơn 11 tỷ đồng khi mua nhà ở nước ngoài",
+    "summary": "Đào Hồng Thái, 45 tuổi, bị cáo buộc nhận hơn 11 tỷ đồng của một phụ nữ ở TP HCM để mua nhà ở nước ngoài giúp người thân bà, nhưng sử dụng vào việc riêng.",
+    "sourceUrl": "https://vnexpress.net/nguoi-phu-nu-bi-lua-hon-11-ty-dong-khi-mua-nha-o-nuoc-ngoai-5141966.html",
+    "sourceName": "VnExpress Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-08",
+    "scrapedAt": "2026-11-08T09:15:21+07:00"
+  },
+  {
+    "id": "news-8469a194c6e0",
+    "title": "Lừa đảo hơn 11 tỉ đồng trong vụ giúp mua nhà ở nước ngoài",
+    "summary": "Người đàn ông ở Vĩnh Long và em gái nhận giúp mua nhà ở nước ngoài cho một người phụ nữ ở TP.HCM, sau đó lừa đảo chiếm đoạt của chị này hơn 11 tỉ đồng.",
+    "sourceUrl": "https://thanhnien.vn/nhan-giup-mua-nha-o-nuoc-ngoai-roi-lua-dao-hon-11-ti-dong-185261107160801348.htm",
+    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-07",
+    "scrapedAt": "2026-11-08T09:15:28+07:00"
+  },
+  {
+    "id": "news-38edcc733031",
+    "title": "Thu 571 kg giò, chả chứa hàn the tại cơ sở có giấy chứng nhận an toàn",
+    "summary": "Dù cơ sở đã được cấp giấy chứng nhận đủ điều kiện an toàn thực phẩm, song kết quả kiểm nghiệm xác định các mẫu giò lợn, chả lợn và chả cốm của cơ sở sản xuất đều chứa hàn the.",
+    "sourceUrl": "https://thanhnien.vn/thu-571-kg-gio-cha-chua-han-the-tai-co-so-co-giay-chung-nhan-an-toan-185261107120618418.htm",
+    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-07",
+    "scrapedAt": "2026-11-08T09:15:28+07:00"
+  },
+  {
+    "id": "news-a4feab35ef75",
+    "title": "VN-Index phát tín hiệu tạo đáy, cổ phiếu bất động sản đảo chiều tăng",
+    "summary": "(Dân trí) - Sau chuỗi ngày giảm sâu, sắc xanh đã trở lại với nhiều cổ phiếu bất động sản. Giới phân tích nhận định VN-Index đang dần tạo đáy, mở ra cơ hội phục hồi ngắn hạn cho nhóm ngành này.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/vn-index-phat-tin-hieu-tao-day-co-phieu-bat-dong-san-dao-chieu-tang-20261107194526855.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-07",
+    "scrapedAt": "2026-11-08T09:15:26+07:00"
+  },
+  {
+    "id": "news-a4c4f7ec8bcd",
+    "title": "Trái phiếu bất động sản trả lãi 12,5%/năm, gần 47.000 tỷ đến hạn trong quý IV",
+    "summary": "(Dân trí) - Lãi suất trái phiếu bất động sản lên 12,5%/năm, cao hơn ngân hàng, cùng 235.000 tỷ đồng trái phiếu đáo hạn trong 12 tháng tới, gây thêm sức ép tài chính lên doanh nghiệp.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/trai-phieu-bat-dong-san-tra-lai-125nam-gan-47000-ty-den-han-trong-quy-iv-20261107091858679.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-07",
+    "scrapedAt": "2026-11-08T09:15:26+07:00"
+  },
+  {
+    "id": "news-01259acd28f5",
+    "title": "Nhờ người tìm mua nhà ở nước ngoài, người phụ nữ bị lừa hơn 11 tỷ đồng",
+    "summary": "(Dân trí) - Biết bà V. có nhu cầu mua nhà ở nước ngoài để người thân sinh sống, Thái cùng em gái nhận giúp tìm nhà. Nạn nhân đã chuyển hơn 11 tỷ đồng nhưng Thái chiếm đoạt để tiêu xài cá nhân.",
+    "sourceUrl": "https://dantri.com.vn/phap-luat/nho-nguoi-tim-mua-nha-o-nuoc-ngoai-nguoi-phu-nu-bi-lua-hon-11-ty-dong-20261107192655982.htm",
+    "sourceName": "Báo Dân Trí - Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-07",
+    "scrapedAt": "2026-11-08T09:15:24+07:00"
+  },
+  {
+    "id": "news-1b3fe2f2a176",
+    "title": "Viện kiểm sát: Bạn gái biết Mr Pips hoạt động phi pháp từ năm 2018",
+    "summary": "(Dân trí) - Viện kiểm sát cho rằng Nguyễn Thanh Tâm, bạn gái Mr Pips, đã biết hoạt động phi pháp của người yêu từ năm 2018 nhưng vẫn giúp chuyển đổi tiền phạm tội mà có thành bất động sản, vàng và ngoại tệ.",
+    "sourceUrl": "https://dantri.com.vn/phap-luat/vien-kiem-sat-ban-gai-biet-mr-pips-hoat-dong-phi-phap-tu-nam-2018-20261107171748189.htm",
+    "sourceName": "Báo Dân Trí - Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-07",
+    "scrapedAt": "2026-11-08T09:15:24+07:00"
+  },
+  {
     "id": "news-89e35ab45158",
     "title": "Luật sư đề nghị án treo cho bố mẹ Mr Pips, xin nhận lại 40,8 tỉ và 34 lượng vàng SJC",
     "summary": "Luật sư đề nghị cho bố mẹ Mr Pips hưởng án treo, trả lại 40,8 tỉ đồng và hủy tạm dừng giao dịch 9 bất động sản. Trước đó, viện kiểm sát cáo buộc hai bị cáo biết tiền do con trai phạm tội mà có nhưng vẫn giúp che giấu nguồn gốc tài sản, đề nghị mỗi người 6-7 năm tù.",
