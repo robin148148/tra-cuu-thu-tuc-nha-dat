@@ -1,5 +1,135 @@
 [
   {
+    "id": "news-ceb6192b0e26",
+    "title": "Phá đường dây làm giả hàng loạt giấy tờ, từ căn cước, sổ đỏ đến bằng đại học",
+    "summary": "Công an khởi tố hai nghi phạm trong đường dây sản xuất, mua bán hàng loạt giấy tờ giả như căn cước gắn chip, giấy phép lái xe, sổ đỏ, bằng đại học, chứng chỉ đào tạo nghề…",
+    "sourceUrl": "https://tuoitre.vn/pha-duong-day-lam-gia-hang-loat-giay-to-tu-can-cuoc-so-do-den-bang-dai-hoc-100261109161247989.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-10T11:34:15+07:00"
+  },
+  {
+    "id": "news-504f3e81f26c",
+    "title": "Mua đất không sang tên, có tránh được thuế?",
+    "summary": "Mua đất rồi bán lại nhưng không sang tên có tránh được thuế? Chuyên gia cảnh báo việc che giấu giao dịch để trốn thuế có thể khiến người vi phạm đối mặt mức án đến 7 năm tù.",
+    "sourceUrl": "https://tuoitre.vn/mua-dat-khong-sang-ten-co-tranh-duoc-thue-100261108212445826.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Thuế - Phí",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-10T11:34:15+07:00"
+  },
+  {
+    "id": "news-a8d00b9bfd11",
+    "title": "Malaysia sắp đón đợt IPO bất động sản lớn nhất lịch sử",
+    "summary": "(Dân trí) - Tập đoàn IOI Properties vừa chào bán quỹ tín thác bất động sản để huy động hơn 515 triệu USD, mở đường cho đợt IPO kỷ lục sắp sửa lên sàn chứng khoán vào cuối tháng 11.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/malaysia-sap-don-dot-ipo-bat-dong-san-lon-nhat-lich-su-20261109220820076.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-10T11:34:14+07:00"
+  },
+  {
+    "id": "news-2b843a64af91",
+    "title": "Khung giá quản lý chung cư mới ở TPHCM: Nơi cao nhất không phải trung tâm",
+    "summary": "(Dân trí) - Khung giá dịch vụ quản lý vận hành chung cư mới tại TPHCM dao động 600-13.700 đồng/m²/tháng ở các phường, xã và lên đến 24.700 đồng/m²/tháng tại Đặc khu Côn Đảo.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/khung-gia-quan-ly-chung-cu-moi-o-tphcm-noi-cao-nhat-khong-phai-trung-tam-20261109214235887.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-10T11:34:14+07:00"
+  },
+  {
+    "id": "news-4b89d80f482c",
+    "title": "TP HCM nâng trần khung phí quản lý chung cư lên tối đa 13.700 đồng mỗi m2",
+    "summary": "Khung giá dịch vụ quản lý chung cư mới tại TP HCM dao động 600-13.700 đồng mỗi m2 một tháng, trong đó mức tối đa tăng gần gấp đôi so với quy định cũ.",
+    "sourceUrl": "https://vnexpress.net/tp-hcm-nang-tran-khung-phi-quan-ly-chung-cu-len-toi-da-13-700-dong-moi-m2-5142712.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-10T11:34:10+07:00"
+  },
+  {
+    "id": "news-cf4c808313d1",
+    "title": "Nhà đầu tư sẵn tiền 'săn' nhà đất giảm giá sâu",
+    "summary": "Tranh thủ nhịp giảm mạnh của thị trường, nhiều nhà đầu tư sẵn tiền mặt săn lùng bất động sản giảm giá sâu, có khả năng cho thuê tạo dòng tiền.",
+    "sourceUrl": "https://vnexpress.net/nha-dau-tu-san-tien-san-nha-dat-giam-gia-sau-5142530.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-10T11:34:10+07:00"
+  },
+  {
+    "id": "news-9353c747ee84",
+    "title": "Vị trí kết nối khu dân cư và du lịch của The Heritage Tay Ninh",
+    "summary": "Nằm giữa khu dân cư hiện hữu và điểm đến du lịch núi Bà Đen, The Heritage Tay Ninh được quy hoạch theo mô hình đô thị du lịch, kết hợp không gian an cư với hoạt động thương mại, dịch vụ.",
+    "sourceUrl": "https://vnexpress.net/vi-tri-ket-noi-khu-dan-cu-va-du-lich-cua-the-heritage-tay-ninh-5142496.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-10T11:34:10+07:00"
+  },
+  {
+    "id": "news-8a4c4368bc0a",
+    "title": "Khởi tố 2 người làm giả hàng loạt giấy tờ, bằng cấp ở Bắc Ninh",
+    "summary": "Thuê căn hộ chung cư làm nơi sản xuất giấy tờ giả, 2 bị can tìm kiếm khách hàng qua mạng xã hội, nhận đặt hàng và chuyển phát giấy tờ giả qua đường bưu chính.",
+    "sourceUrl": "https://thanhnien.vn/khoi-to-2-nguoi-lam-gia-hang-loat-giay-to-bang-cap-o-bac-ninh-185261109170306418.htm",
+    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-09",
+    "scrapedAt": "2026-11-10T11:34:16+07:00"
+  },
+  {
+    "id": "news-957bd9cc8d60",
+    "title": "Công ty con của Vingroup đứng đầu liên danh xây tổ hợp cảng biển 7,9 tỷ USD",
+    "summary": "(Dân trí) - Tổ hợp cảng Cái Mép Hạ hạ lưu ở TPHCM được quy hoạch loạt bến container cùng trung tâm logistics, khu công nghiệp... do doanh nghiệp trong hệ sinh thái Vingroup đứng đầu liên danh.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/cong-ty-con-cua-vingroup-dung-dau-lien-danh-xay-to-hop-cang-bien-79-ty-usd-20261109183516537.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-09",
+    "scrapedAt": "2026-11-10T11:34:14+07:00"
+  },
+  {
+    "id": "news-03b7d0a67241",
+    "title": "Quỹ bất động sản: Châu Á hút hàng tỷ USD, Việt Nam chật vật gỡ vướng",
+    "summary": "(Dân trí) - Quỹ đầu tư bất động sản (REIT) đang trở thành kênh dẫn vốn tỷ USD tại nhiều nước châu Á. Tại Việt Nam, mô hình này vẫn đối mặt nhiều nút thắt về pháp lý và nguồn cung tài sản chất lượng.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/quy-bat-dong-san-chau-a-hut-hang-ty-usd-viet-nam-chat-vat-go-vuong-20261109080415414.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-09",
+    "scrapedAt": "2026-11-10T11:34:14+07:00"
+  },
+  {
+    "id": "news-ccf259b46a2d",
+    "title": "Người cho thuê nhà phải kê khai thuế ra sao?",
+    "summary": "(Dân trí) - Cá nhân cho thuê bất động sản có doanh thu dưới 1 tỷ đồng/năm vẫn phải thực hiện nghĩa vụ thông báo doanh thu với cơ quan thuế.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/nguoi-cho-thue-nha-phai-ke-khai-thue-ra-sao-20261109112120474.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Thuế - Phí",
+    "publishedDate": "2026-11-09",
+    "scrapedAt": "2026-11-10T11:34:14+07:00"
+  },
+  {
+    "id": "news-eeb9a87814d1",
+    "title": "Thuê căn hộ chung cư để làm giả căn cước, sổ đỏ và bằng đại học",
+    "summary": "(Dân trí) - Hai người đàn ông thuê căn hộ chung cư ở Bắc Ninh làm nơi sản xuất hàng loạt giấy tờ giả, sau đó tìm khách hàng qua mạng xã hội và gửi sản phẩm bằng đường bưu điện.",
+    "sourceUrl": "https://dantri.com.vn/phap-luat/thue-can-ho-chung-cu-de-lam-gia-can-cuoc-so-do-va-bang-dai-hoc-20261109162248710.htm",
+    "sourceName": "Báo Dân Trí - Pháp Luật",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-09",
+    "scrapedAt": "2026-11-10T11:34:12+07:00"
+  },
+  {
+    "id": "news-f6322c34c702",
+    "title": "Hai người bị bắt vì làm nhiều căn cước, sổ đỏ giả",
+    "summary": "Vy Văn Mắn và Vy Văn Tâm bị cáo buộc thuê căn hộ làm nơi sản xuất nhiều loại giấy tờ giả, từ căn cước, sổ đỏ đến bằng đại học, rồi bán qua mạng xã hội.",
+    "sourceUrl": "https://vnexpress.net/hai-nguoi-bi-bat-vi-lam-nhieu-can-cuoc-so-do-gia-5142595.html",
+    "sourceName": "VnExpress Pháp Luật",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-09",
+    "scrapedAt": "2026-11-10T11:34:08+07:00"
+  },
+  {
     "id": "news-45047ed74e9f",
     "title": "Bị chủ tát 9 cái, nhân viên hôn mê 14 tháng rồi tử vong",
     "summary": "Sau khi bị chủ tát 9 lần trong lúc tranh cãi tiền lương, người đàn ông 59 tuổi nhồi máu não, hôn mê 14 tháng rồi tử vong, khiến gia đình khởi kiện đòi bồi thường.",
@@ -668,135 +798,5 @@
     "category": "Chính sách mới",
     "publishedDate": "2026-11-04",
     "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "news-971bd2bea5af",
-    "title": "TP HCM dự kiến khởi công dự án nhà ở xã hội gần 110 ha cuối năm nay",
-    "summary": "Khu đất gần 110 ha tại Khu công nghiệp Lê Minh Xuân mở rộng được định hướng chuyển đổi, phát triển nhà ở xã hội, dự kiến khởi công ngày 30/12 sau khi hoàn tất pháp lý.",
-    "sourceUrl": "https://vnexpress.net/tp-hcm-du-kien-khoi-cong-du-an-nha-o-xa-hoi-gan-110-ha-cuoi-nam-nay-5140663.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "news-8ea6a5f36769",
-    "title": "Gần 3.300 căn hộ tại TP HCM đã bán cho người nước ngoài",
-    "summary": "Tổ chức, cá nhân nước ngoài đã mua 3.297 căn hộ tại các dự án thương mại trên địa bàn TP HCM kể từ sau sáp nhập đến cuối tháng 10, trong đó 316 căn được cấp sổ hồng.",
-    "sourceUrl": "https://vnexpress.net/gan-3-300-can-ho-tai-tp-hcm-da-ban-cho-nguoi-nuoc-ngoai-5140484.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "news-ab1263e0a277",
-    "title": "'Gồng' lãi vay chờ thị trường bất động sản phục hồi",
-    "summary": "Gánh lãi vay lên 12,4% mỗi năm nhưng anh Kiệt vẫn chọn giữ căn nhà liền kề, không bán lỗ với niềm tin năm sau thị trường khởi sắc.",
-    "sourceUrl": "https://vnexpress.net/gong-lai-vay-cho-thi-truong-bat-dong-san-phuc-hoi-5139736.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "seed-hoa-giai-tranh-chap-dat-dai-2024",
-    "title": "Lưu ý bắt buộc về hòa giải tranh chấp đất đai tại UBND cấp xã trước khi khởi kiện ra Tòa án",
-    "summary": "Theo Điều 235 Luật Đất đai 2024, tranh chấp về việc ai là người có quyền sử dụng đất bắt buộc phải qua thủ tục hòa giải tại UBND cấp xã nơi có đất trong thời hạn không quá 30 ngày trước khi Tòa án nhân dân thụ lý.",
-    "sourceUrl": "https://baophapluat.vn/quy-dinh-hoa-giai-tranh-chap-dat-dai-theo-luat-dat-dai-2024-post521982.html",
-    "sourceName": "Báo Pháp Luật Việt Nam",
-    "category": "Tranh chấp",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T06:00:00+07:00"
-  },
-  {
-    "id": "news-2668ca2eecc8",
-    "title": "Em trai đâm anh ruột tử vong trong nhà bếp",
-    "summary": "(Dân trí) - Án mạng xảy ra trong gian bếp của một ngôi nhà ở thành phố Huế, sau cuộc giằng co giữa hai anh em ruột.",
-    "sourceUrl": "https://dantri.com.vn/phap-luat/em-trai-dam-anh-ruot-tu-vong-trong-nha-bep-20261103161915134.htm",
-    "sourceName": "Báo Dân Trí - Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-03",
-    "scrapedAt": "2026-11-05T08:07:56+07:00"
-  },
-  {
-    "id": "news-7c3059efb4cb",
-    "title": "TPHCM có thêm 147 khu đất làm dự án nhà ở, bao giờ có sản phẩm bán ra?",
-    "summary": "(Dân trí) - Việc TPHCM bổ sung 147 khu đất vào danh mục thí điểm mang lại hy vọng lớn cho thị trường bất động sản. Tuy nhiên, hành trình từ bãi đất trống đến căn hộ hoàn thiện vẫn đối mặt nhiều rào cản pháp lý.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/tphcm-co-them-147-khu-dat-lam-du-an-nha-o-bao-gio-co-san-pham-ban-ra-20261102233641673.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-03",
-    "scrapedAt": "2026-11-05T08:07:56+07:00"
-  },
-  {
-    "id": "news-5dab1f58082d",
-    "title": "Nhiều cổ phiếu của loạt doanh nghiệp địa ốc về đáy, giá bằng ly trà đá",
-    "summary": "(Dân trí) - Bất chấp kết quả kinh doanh khởi sắc trong quý III, cổ phiếu của nhiều doanh nghiệp bất động sản đang ở đáy 3-4 năm hoặc lùi thấp hơn mệnh giá 10.000 đồng.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/nhieu-co-phieu-cua-loat-doanh-nghiep-dia-oc-ve-day-gia-bang-ly-tra-da-20261102224207807.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-03",
-    "scrapedAt": "2026-11-05T08:07:56+07:00"
-  },
-  {
-    "id": "news-2bd4374fcfea",
-    "title": "Con phá hoại ôtô, mẹ từ chối bồi thường thay với lý do 'đã ly hôn'",
-    "summary": "Toà án xác định ngay cả khi ly hôn, mối quan hệ giữa cha mẹ và con cũng không bị xóa bỏ, vì thế nếu trẻ gây thiệt hại cho người khác, cha mẹ đều phải chịu trách nhiệm chung về bồi thường.",
-    "sourceUrl": "https://vnexpress.net/con-pha-hoai-oto-me-tu-choi-boi-thuong-thay-voi-ly-do-da-ly-hon-5140247.html",
-    "sourceName": "VnExpress Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-03",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "news-1f7990d0e473",
-    "title": "Nhà ở xã hội tại Hạ Long mở bán từ 828 triệu đồng",
-    "summary": "Khu nhà xã hội nằm trên đường bao biển Hạ Long - Cẩm Phả chuẩn bị nhận hồ sơ với giá gần 23,3 triệu đồng một m2.",
-    "sourceUrl": "https://vnexpress.net/nha-o-xa-hoi-tai-ha-long-mo-ban-tu-828-trieu-dong-5140352.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-03",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "news-d9b545802856",
-    "title": "Đồng Nai quy hoạch khu đô thị 2.250 ha ven sông",
-    "summary": "Khu đô thị tại An Phước và Tam Phước được định hướng phát triển thành không gian đa chức năng, kết hợp nhà ở, thương mại, giáo dục gắn với sân bay Long Thành.",
-    "sourceUrl": "https://vnexpress.net/dong-nai-quy-hoach-khu-do-thi-2-250-ha-ven-song-5140043.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-03",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "news-37b5999eb835",
-    "title": "35.000 căn chung cư có thể được mở bán tại Hà Nội năm sau",
-    "summary": "Nguồn cung căn hộ dự báo tiếp tục tăng mạnh trong 2027 với khoảng 35.000 căn mở bán, tập trung ở khu vực ngoại thành, theo Knight Frank.",
-    "sourceUrl": "https://vnexpress.net/35-000-can-chung-cu-co-the-duoc-mo-ban-tai-ha-noi-nam-sau-5140096.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-03",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "news-6d192b044258",
-    "title": "Lusso Saigon WorldHotels Residences nhận giải thưởng tiềm năng khai thác dòng tiền",
-    "summary": "Với lợi thế vị trí, quy hoạch sản phẩm và mô hình vận hành, Lusso Saigon WorldHotels Residences được vinh danh \"Dự án tiềm năng khai thác dòng tiền tiêu biểu\" tại Vietnam Property Value Chain Awards (VPVC) 2026.",
-    "sourceUrl": "https://vnexpress.net/lusso-saigon-worldhotels-residences-nhan-giai-thuong-tiem-nang-khai-thac-dong-tien-5140025.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-03",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "news-3cf364750a71",
-    "title": "Vì sao căn hộ giá trung bình ngày càng khan hiếm?",
-    "summary": "(Dân trí) - Chi phí đầu vào tăng cao cùng những nút thắt pháp lý đang khiến các dự án căn hộ vừa túi tiền dần biến mất. Để giải bài toán này, quy hoạch đô thị và tư duy phát triển dự án cần thay đổi toàn diện.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/vi-sao-can-ho-gia-trung-binh-ngay-cang-khan-hiem-20261102084226675.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-02",
-    "scrapedAt": "2026-11-05T08:07:56+07:00"
   }
 ]
