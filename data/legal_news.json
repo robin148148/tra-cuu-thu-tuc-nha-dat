@@ -1,5 +1,145 @@
 [
   {
+    "id": "news-e80d3c74de73",
+    "title": "Sông Đà Nha Trang lại bị kiện ra tòa vì chấm dứt nhiều hợp đồng bán đất hơn 10 năm trước",
+    "summary": "Ngoài vụ thua kiện đòi “vô hiệu” hợp đồng góp vốn đầu tư mua đất nền, Công ty cổ phần Sông Đà Nha Trang lại bị kiện vụ thông báo hủy nhiều hợp đồng chuyển nhượng quyền sử dụng đất, đều tại dự án Khu dân cư Cồn Tân Lập.",
+    "sourceUrl": "https://tuoitre.vn/song-da-nha-trang-lai-bi-kien-ra-toa-vi-cham-dut-nhieu-hop-dong-ban-dat-hon-10-nam-truoc-100261110155515743.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-11",
+    "scrapedAt": "2026-11-11T09:40:21+07:00"
+  },
+  {
+    "id": "news-622bc0120b3a",
+    "title": "Khởi tố người khai thác cát trái phép ở dự án Nhà máy điện hạt nhân Ninh Thuận 1",
+    "summary": "Nguyễn Thành Quanh cho máy đào khai thác khoáng sản là cát trái phép trong khu vực bồi thường, hỗ trợ, giải phóng mặt bằng phục vụ triển khai dự án Nhà máy điện hạt nhân Ninh Thuận 1.",
+    "sourceUrl": "https://tuoitre.vn/khoi-to-nguoi-khai-thac-cat-trai-phep-o-du-an-nha-may-dien-hat-nhan-ninh-thuan-1-10026111014203792.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-11",
+    "scrapedAt": "2026-11-11T09:40:21+07:00"
+  },
+  {
+    "id": "news-2a0af47d0dda",
+    "title": "Dân phản ánh nộp hồ sơ đất đai phải '10 lần tới lui' vẫn không xong, chủ tịch xã nói gì?",
+    "summary": "Một người dân ở xã Thăng An, TP Đà Nẵng phản ánh việc gửi hồ sơ chuyển đổi mục đích sử dụng khu đất trong gia đình để tách thửa, chia cho 4 người con. Tuy nhiên phải mất nhiều tháng, đi lên xã 10 lần theo lịch hẹn nhưng vẫn chưa xong và không rõ lý do.",
+    "sourceUrl": "https://tuoitre.vn/dan-phan-anh-nop-ho-so-dat-dai-phai-10-lan-toi-lui-van-khong-xong-chu-tich-xa-noi-gi-100261110103424728.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-11",
+    "scrapedAt": "2026-11-11T09:40:21+07:00"
+  },
+  {
+    "id": "news-c3beb7eb2295",
+    "title": "Luật Đất đai sửa đổi: Giữ phương án HĐND cấp tỉnh ban hành hệ số điều chỉnh giá đất",
+    "summary": "(Dân trí) - Đối với hệ số điều chỉnh giá đất, Phó Thủ tướng lưu ý giữ nguyên phương án Hội đồng nhân dân cấp tỉnh ban hành, sửa đổi bảng giá đất và cả hệ số điều chỉnh giá đất.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/luat-dat-dai-sua-doi-giu-phuong-an-hdnd-cap-tinh-ban-hanh-he-so-dieu-chinh-gia-dat-20261110233115061.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Thuế - Phí",
+    "publishedDate": "2026-11-11",
+    "scrapedAt": "2026-11-11T09:40:20+07:00"
+  },
+  {
+    "id": "news-592b60d16581",
+    "title": "Bản đồ nhà ở xã hội Hà Nội: Liên tiếp xuất hiện căn hộ giá dưới 1 tỷ đồng",
+    "summary": "(Dân trí) - Hàng loạt dự án nhà ở xã hội tại Hà Nội đang và sắp tiếp nhận hồ sơ mua nhà, với mức giá từ hơn 700 triệu đồng đến gần 2 tỷ đồng/căn. Nhiều dự án khác dự kiến bổ sung nguồn cung từ năm 2027.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/ban-do-nha-o-xa-hoi-ha-noi-lien-tiep-xuat-hien-can-ho-gia-duoi-1-ty-dong-20261110140053196.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-11",
+    "scrapedAt": "2026-11-11T09:40:20+07:00"
+  },
+  {
+    "id": "news-80f5fc225dd9",
+    "title": "12 ngân hàng cho vay bất động sản hơn 1,14 triệu tỷ đồng",
+    "summary": "(Dân trí) - Tỷ trọng cho vay kinh doanh bất động sản tại một số ngân hàng vượt 20% tổng dư nợ. Dư nợ cho vay kinh doanh bất động sản tại 12 ngân hàng có công bố số liệu chi tiết đạt hơn 1,14 triệu tỷ đồng.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/12-ngan-hang-cho-vay-bat-dong-san-hon-114-trieu-ty-dong-20261110183216497.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-11T09:40:20+07:00"
+  },
+  {
+    "id": "news-d95a6ffa40dc",
+    "title": "Hà Nội tổng kiểm tra khu sạc xe điện tại nhà trọ, chung cư mini",
+    "summary": "(Dân trí) - Hà Nội sẽ kiểm tra an toàn điện, phòng cháy, chữa cháy tại các nhà ở, công trình trên địa bàn, trong đó tập trung vào khu vực để xe, sạc xe điện tại nhà trọ, nhà ở nhiều căn hộ.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/ha-noi-tong-kiem-tra-khu-sac-xe-dien-tai-nha-tro-chung-cu-mini-20261110130714498.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-11T09:40:20+07:00"
+  },
+  {
+    "id": "news-df5a00ae3f78",
+    "title": "Người mua nhà ở xã hội có thể chịu thiệt khi bán lại sau 5 năm",
+    "summary": "(Dân trí) - Sau 5 năm, người mua nhà ở xã hội có thể chịu thiệt khi bán lại do đã phát sinh lãi vay, chi phí sở hữu, trong khi giá bán vẫn bị giới hạn.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/nguoi-mua-nha-o-xa-hoi-co-the-chiu-thiet-khi-ban-lai-sau-5-nam-20261110100624725.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-11T09:40:20+07:00"
+  },
+  {
+    "id": "news-63f7735aa0fa",
+    "title": "Xuất hiện thêm căn hộ giá hơn 700 triệu đồng tại Hà Nội",
+    "summary": "(Dân trí) - Hà Nội dự kiến tiếp nhận hồ sơ mua 164 căn nhà ở xã hội tại hai dự án NHS Trung Văn và NHS Phương Canh, giá từ 16,6 triệu đồng/m2. Tuy nhiên, không phải ai cũng được đăng ký mua.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/xuat-hien-them-can-ho-gia-hon-700-trieu-dong-tai-ha-noi-20261110101548697.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-11T09:40:20+07:00"
+  },
+  {
+    "id": "news-bd7260ef86d5",
+    "title": "Từ “vùng đáy”, CEO kỳ cựu đúc kết bài học làm nghề môi giới bất động sản",
+    "summary": "(Dân trí) - Gần 20 năm đi qua những chu kỳ thăng trầm của thị trường bất động sản, CEO Trần Bá Thùy cho rằng thời điểm khó khăn cũng là cơ hội để người làm nghề tích lũy kinh nghiệm, tạo lợi thế trước khi thị trường bước vào chu kỳ mới.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/tu-vung-day-ceo-ky-cuu-duc-ket-bai-hoc-lam-nghe-moi-gioi-bat-dong-san-20261110135831808.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-11T09:40:20+07:00"
+  },
+  {
+    "id": "news-bf39602d0a5d",
+    "title": "Thêm 4 bất động sản hơn 550 tỷ đồng liên quan bà Trương Mỹ Lan được đấu giá",
+    "summary": "(Dân trí) - Bốn bất động sản liên quan bà Trương Mỹ Lan tại phường Xuân Hòa, TPHCM, có tổng giá khởi điểm hơn 550 tỷ đồng, trong đó 2 tài sản giảm giá 9% sau lần đấu giá trước không thành.",
+    "sourceUrl": "https://dantri.com.vn/phap-luat/them-4-bat-dong-san-hon-550-ty-dong-lien-quan-ba-truong-my-lan-duoc-dau-gia-20261109110245965.htm",
+    "sourceName": "Báo Dân Trí - Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-11T09:40:18+07:00"
+  },
+  {
+    "id": "news-ef7c5e83a8b2",
+    "title": "TP HCM đề xuất cho tồn tại có điều kiện một số công trình sai phép",
+    "summary": "Các công trình sai phép xây dựng nếu đáp ứng một loạt điều kiện, gồm đảm bảo quy hoạch, an toàn, đã khắc phục hậu quả, nộp phạt... có thể không phải tháo dỡ.",
+    "sourceUrl": "https://vnexpress.net/tp-hcm-de-xuat-cho-ton-tai-co-dieu-kien-mot-so-cong-trinh-sai-phep-5143078.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-11T09:40:17+07:00"
+  },
+  {
+    "id": "news-9539ac2dd62a",
+    "title": "HoREA kiến nghị giữ quyền bán nhà xã hội theo giá thị trường sau 5 năm",
+    "summary": "HoREA kiến nghị giữ nguyên quyền được bán lại nhà ở xã hội theo giá thị trường sau 5 năm, thay vì giới hạn người mua và giá bán như dự thảo Luật Nhà ở (sửa đổi).",
+    "sourceUrl": "https://vnexpress.net/horea-kien-nghi-giu-quyen-ban-nha-xa-hoi-theo-gia-thi-truong-sau-5-nam-5142956.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-11T09:40:17+07:00"
+  },
+  {
+    "id": "news-a7782b9e3f3a",
+    "title": "Chủ đầu tư, sàn giao dịch phải cập nhật dữ liệu bất động sản ngay khi có biến động",
+    "summary": "Chủ đầu tư, sàn giao dịch và doanh nghiệp môi giới tại TP HCM phải cập nhật thông tin về dự án, mua bán ngay khi có thay đổi, thay vì chờ đến kỳ báo cáo.",
+    "sourceUrl": "https://vnexpress.net/chu-dau-tu-san-giao-dich-phai-cap-nhat-du-lieu-bat-dong-san-ngay-khi-co-bien-dong-5142753.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-10",
+    "scrapedAt": "2026-11-11T09:40:17+07:00"
+  },
+  {
     "id": "news-ceb6192b0e26",
     "title": "Phá đường dây làm giả hàng loạt giấy tờ, từ căn cước, sổ đỏ đến bằng đại học",
     "summary": "Công an khởi tố hai nghi phạm trong đường dây sản xuất, mua bán hàng loạt giấy tờ giả như căn cước gắn chip, giấy phép lái xe, sổ đỏ, bằng đại học, chứng chỉ đào tạo nghề…",
@@ -400,6 +540,16 @@
     "scrapedAt": "2026-11-07T09:39:10+07:00"
   },
   {
+    "id": "news-2688d1b41c9e",
+    "title": "Sun Group mở bán nhà xã hội cho cư dân tái định cư",
+    "summary": "Hơn trăm căn hộ Sun Home sắp mở bán dành cho người dân thuộc diện di dời từ 3 khu chung cư cũ tại Đà Nẵng.",
+    "sourceUrl": "https://vnexpress.net/sun-group-mo-ban-nha-xa-hoi-cho-cu-dan-tai-dinh-cu-5141512.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-06",
+    "scrapedAt": "2026-11-11T09:40:17+07:00"
+  },
+  {
     "id": "news-e5c78a1ea290",
     "title": "Luật sư xin cho bố mẹ Mr Pips án treo, trả lại vàng, ô tô, bất động sản",
     "summary": "Luật sư đề nghị tòa cho bố mẹ Mr Pips được hưởng án treo, đồng thời hủy lệnh tạm dừng giao dịch 9 bất động sản, trả lại hơn 40 tỉ đồng, 34 lượng vàng và chiếc ô tô Lexus.",
@@ -648,155 +798,5 @@
     "category": "Đất đai",
     "publishedDate": "2026-11-05",
     "scrapedAt": "2026-11-05T08:07:57+07:00"
-  },
-  {
-    "id": "news-a41e6d30ce36",
-    "title": "Bắt 98 người trong đường dây ma túy từ Campuchia qua Hưng Yên về Hà Nội",
-    "summary": "Từ Campuchia qua Hưng Yên về Hà Nội, đường dây mua bán ma túy quy mô lớn cùng thủ đoạn rửa tiền bằng vàng, bất động sản vừa bị Công an TP Hà Nội triệt phá.",
-    "sourceUrl": "https://tuoitre.vn/bat-98-nguoi-trong-duong-day-ma-tuy-tu-campuchia-qua-hung-yen-ve-ha-noi-100261104155234029.htm",
-    "sourceName": "Tuổi Trẻ Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-05",
-    "scrapedAt": "2026-11-05T08:07:57+07:00"
-  },
-  {
-    "id": "news-45c25db1b7e3",
-    "title": "Bắt tạm giam ông Huỳnh Anh Minh, cựu Phó chủ tịch tỉnh Bình Phước cũ",
-    "summary": "Công an Đồng Nai vừa bắt tạm giam ông Huỳnh Anh Minh, cựu Phó chủ tịch UBND tỉnh Bình Phước (cũ) vì vi phạm quy định về quản lý đất đai.",
-    "sourceUrl": "https://tuoitre.vn/bat-tam-giam-ong-huynh-anh-minh-cuu-pho-chu-tich-tinh-binh-phuoc-cu-100261104102800333.htm",
-    "sourceName": "Tuổi Trẻ Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-05",
-    "scrapedAt": "2026-11-05T08:07:57+07:00"
-  },
-  {
-    "id": "news-33c63f7370d9",
-    "title": "Con gái đã đi lấy chồng có được chia đất của hộ gia đình?",
-    "summary": "Pháp luật Việt Nam không có quy định nào tước bỏ quyền thừa kế của con gái chỉ vì người đó đã kết hôn, ngoài ra việc xác định quyền đối với đất cấp cho hộ gia đình không phụ thuộc vào giới tính hay việc đã đi lấy chồng hay chưa.",
-    "sourceUrl": "https://tuoitre.vn/con-gai-da-di-lay-chong-co-duoc-chia-dat-cua-ho-gia-dinh-100261103192526628.htm",
-    "sourceName": "Tuổi Trẻ Pháp Luật",
-    "category": "Thừa kế",
-    "publishedDate": "2026-11-05",
-    "scrapedAt": "2026-11-05T08:07:57+07:00"
-  },
-  {
-    "id": "news-bdf2dba2066d",
-    "title": "HoREA kiến nghị gỡ vướng quỹ đất cho hàng nghìn dự án nhà ở thương mại",
-    "summary": "HoREA đề xuất đưa cơ chế nhà đầu tư tự thỏa thuận nhận quyền sử dụng đất vào dự thảo Luật Đất đai để khơi thông ách tắc cho hàng nghìn dự án nhà ở.",
-    "sourceUrl": "https://vnexpress.net/horea-kien-nghi-go-vuong-quy-dat-cho-hang-nghin-du-an-nha-o-thuong-mai-5140905.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-05",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "news-a7d67247ff0f",
-    "title": "Tổng vốn đầu tư khu nhà ở Thủ Thiêm hơn 39.800 tỷ đồng",
-    "summary": "Ngoài 18.253 tỷ đồng giá khởi điểm đất và tài sản hiện hữu, nhà đầu tư trúng đấu giá 3.790 căn hộ tại Thủ Thiêm dự kiến cần thêm gần 21.590 tỷ đồng cho đầu tư xây dựng.",
-    "sourceUrl": "https://vnexpress.net/tong-von-dau-tu-khu-nha-o-thu-thiem-hon-39-800-ty-dong-5140758.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-05",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
-  },
-  {
-    "id": "news-510fdcf1fcd2",
-    "title": "Em gái 'trùm' ma túy ở Hưng Yên mua vàng, nhà đất giúp anh trai rửa tiền",
-    "summary": "Cảnh sát xác định Nguyễn Thị Bích Thùy (20 tuổi, trú Hưng Yên) đã giúp sức anh trai rửa tiền bằng cách dùng tiền có nguồn gốc từ mua bán ma túy để mua bán vàng, nhà đất.",
-    "sourceUrl": "https://thanhnien.vn/em-gai-trum-ma-tuy-o-hung-yen-mua-vang-nha-dat-giup-anh-trai-rua-tien-185261104163309169.htm",
-    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:57+07:00"
-  },
-  {
-    "id": "news-fd85c74e2b48",
-    "title": "Khởi tố ông Huỳnh Anh Minh, cựu Phó chủ tịch UBND tỉnh Bình Phước cũ",
-    "summary": "Công an Đồng Nai đã khởi tố ông Huỳnh Anh Minh, cựu Phó chủ tịch UBND tỉnh Bình Phước (cũ) do vi phạm quy định về quản lý đất đai xảy ra năm 2020 tại dự án Khu đô thị dịch vụ - thương mại Mỹ Lệ.",
-    "sourceUrl": "https://thanhnien.vn/khoi-to-ong-huynh-anh-minh-cuu-pho-chu-tich-ubnd-tinh-binh-phuoc-cu-185261104121621358.htm",
-    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:57+07:00"
-  },
-  {
-    "id": "news-59ee53deda6e",
-    "title": "Mr Pips bị đề nghị án chung thân, bồi thường gần 1.200 tỉ đồng",
-    "summary": "Viện kiểm sát đề nghị tuyên phạt Mr Pips mức án chung thân về 2 tội lừa đảo và rửa tiền, đồng thời phải bồi thường gần 1.200 tỉ đồng.",
-    "sourceUrl": "https://thanhnien.vn/mr-pips-bi-de-nghi-an-chung-than-boi-thuong-gan-1200-ti-dong-185261104084111373.htm",
-    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:57+07:00"
-  },
-  {
-    "id": "news-1c5d95d022bb",
-    "title": "Bắt cựu Phó chủ tịch UBND tỉnh Bình Phước cũ Huỳnh Anh Minh",
-    "summary": "(Dân trí) - Cựu Phó Chủ tịch UBND tỉnh Bình Phước cũ và nhiều cán bộ vừa bị bắt để điều tra về tội Vi phạm quy định về quản lý đất đai liên quan đến dự án Mỹ Lệ xảy ra năm 2020.",
-    "sourceUrl": "https://dantri.com.vn/phap-luat/bat-cuu-pho-chu-tich-ubnd-tinh-binh-phuoc-cu-huynh-anh-minh-20261104112526179.htm",
-    "sourceName": "Báo Dân Trí - Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:56+07:00"
-  },
-  {
-    "id": "news-165cb6288d34",
-    "title": "Từng gây sốt, phiên đấu giá đất Thanh Oai nay chỉ có 47 người tham gia",
-    "summary": "(Dân trí) - Phiên đấu giá 20 thửa đất tại xã Thanh Oai (Hà Nội) chỉ thu hút 47 người tham gia. Giá trúng cao nhất đạt 56,08 triệu đồng/m2, giảm gần 40% so với mức đỉnh từng ghi nhận tại khu vực.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/tung-gay-sot-phien-dau-gia-dat-thanh-oai-nay-chi-co-47-nguoi-tham-gia-20261104202400995.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:56+07:00"
-  },
-  {
-    "id": "news-d54f0093283a",
-    "title": "2 bất động sản liên quan bà Trương Mỹ Lan tiếp tục giảm giá gần 15 tỷ đồng",
-    "summary": "(Dân trí) - Do các phiên đấu giá trước không thành, 2 bất động sản trung tâm TPHCM liên quan bà Trương Mỹ Lan tiếp tục được cơ quan thi hành án thông báo hạ giá khởi điểm thêm gần 15 tỷ đồng.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/2-bat-dong-san-lien-quan-ba-truong-my-lan-tiep-tuc-giam-gia-gan-15-ty-dong-20261104114319945.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:56+07:00"
-  },
-  {
-    "id": "news-41a6d28218bc",
-    "title": "Anh chi thêm 1,5 tỷ bảng xây nhà ở xã hội, hỗ trợ người mua nhà lần đầu",
-    "summary": "(Dân trí) - Ngân sách 2026 của Anh bổ sung 1,5 tỷ bảng phát triển nhà ở xã hội, đồng thời dành 4,7 tỷ bảng cho chương trình hỗ trợ khoảng 70.000 hộ gia đình mua nhà lần đầu.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/anh-chi-them-15-ty-bang-xay-nha-o-xa-hoi-ho-tro-nguoi-mua-nha-lan-dau-20261104143255615.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:56+07:00"
-  },
-  {
-    "id": "news-3e1afe592b93",
-    "title": "Bộ Xây dựng chỉ ra điểm nghẽn trong tiếp cận nhà ở xã hội",
-    "summary": "(Dân trí) - Thứ trưởng Bộ Xây dựng Lê Hồng Vinh cho biết các giải pháp giúp người dân tiếp cận nhà ở xã hội còn manh mún, sự vụ. Bộ đang tham mưu sửa Luật Nhà ở để tháo gỡ.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/bo-xay-dung-chi-ra-diem-nghen-trong-tiep-can-nha-o-xa-hoi-20261104135056158.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:56+07:00"
-  },
-  {
-    "id": "news-174f82ad0137",
-    "title": "VinaLiving: 16 năm kiến tạo dấu ấn trên bản đồ bất động sản Việt Nam",
-    "summary": "(Dân trí) - Từ Đà Nẵng, Quy Nhơn, Hồ Tràm đến TPHCM, hành trình 16 năm của VinaLiving ghi dấu qua các dự án nghỉ dưỡng và nhà ở phát triển trên nền tảng kinh nghiệm, tầm nhìn tiên phong, tư duy xuyên suốt: lấy trải nghiệm sống và giá trị dài hạn làm trọng tâm.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/vinaliving-16-nam-kien-tao-dau-an-tren-ban-do-bat-dong-san-viet-nam-20261103162143717.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:56+07:00"
-  },
-  {
-    "id": "news-a31c47ddea08",
-    "title": "Mr Pips bị đề nghị tù chung thân, bồi thường gần 1.200 tỷ đồng",
-    "summary": "Xác định lừa đảo số tiền chiếm đoạt đặc biệt lớn, kéo dài nhiều năm, tổ chức đường dây tội phạm, rửa tiền tinh vi, VKS đề nghị tòa tuyên Phó Đức Nam (Mr Pips) án tù chung thân - hình phạt cao nhất vụ án.",
-    "sourceUrl": "https://vnexpress.net/mr-pips-bi-de-nghi-tu-chung-than-boi-thuong-gan-1-200-ty-dong-5140501.html",
-    "sourceName": "VnExpress Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-04",
-    "scrapedAt": "2026-11-05T08:07:55+07:00"
   }
 ]
