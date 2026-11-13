@@ -1,5 +1,75 @@
 [
   {
+    "id": "news-e24077703306",
+    "title": "Nhà ở kết hợp kinh doanh, cho thuê chiếm phần lớn số vụ cháy ở TP.HCM",
+    "summary": "Theo thống kê của Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ (PC07), Công an TP.HCM, nhà ở kết hợp kinh doanh, cho thuê lưu trú đang chiếm phần lớn số vụ cháy và thiệt hại.",
+    "sourceUrl": "https://tuoitre.vn/nha-o-ket-hop-kinh-doanh-cho-thue-chiem-phan-lon-so-vu-chay-o-tphcm-100261112163744156.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-13",
+    "scrapedAt": "2026-11-13T10:21:27+07:00"
+  },
+  {
+    "id": "news-1133b5ebc262",
+    "title": "Moonlight 2 - Đón nhịp phát triển từ quy hoạch TOD phía Tây Hà Nội",
+    "summary": "(Dân trí) - Sự bứt phá của hạ tầng giao thông công cộng, đặc biệt là hệ thống đường sắt đô thị (metro), đang tái định hình bản đồ đô thị và giá trị bất động sản tại Hà Nội.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/moonlight-2-don-nhip-phat-trien-tu-quy-hoach-tod-phia-tay-ha-noi-20261112141844664.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-13",
+    "scrapedAt": "2026-11-13T10:21:25+07:00"
+  },
+  {
+    "id": "news-53f8f105d06f",
+    "title": "Nvidia chi gần 4 triệu USD bảo vệ nơi ở và hoạt động cá nhân của Jensen Huang",
+    "summary": "Gia đình CEO Nvidia Jensen Huang có ba biệt thự với tổng giá mua gần 53 triệu USD, trong khi tập đoàn chi hàng triệu USD mỗi năm cho các dịch vụ bảo vệ ông, gồm an ninh nhà ở.",
+    "sourceUrl": "https://vnexpress.net/nvidia-chi-gan-4-trieu-usd-bao-ve-noi-o-va-hoat-dong-ca-nhan-cua-jensen-huang-5143908.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-13",
+    "scrapedAt": "2026-11-13T10:21:21+07:00"
+  },
+  {
+    "id": "news-e6d5fae94782",
+    "title": "Gây thiệt hại 117 tỉ vì nghe cấp trên nói 'chú ký đi, tôi chịu trách nhiệm'",
+    "summary": "Trước khi cựu Phó chủ tịch UBND tỉnh Đồng Nai Trần Văn Vĩnh ký duyệt và điều chỉnh quy hoạch, ông Đinh Quốc Thái, cựu Chủ tịch UBND tỉnh Đồng Nai đều tác động 'Chú ký đi, tôi chịu trách nhiệm'. Sai phạm sau đó gây thiệt hại 117 tỉ đồng.",
+    "sourceUrl": "https://thanhnien.vn/gay-thiet-hai-117-ti-vi-nghe-cap-tren-noi-chu-ky-di-toi-chiu-trach-nhiem-185261112093636641.htm",
+    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-12",
+    "scrapedAt": "2026-11-13T10:21:28+07:00"
+  },
+  {
+    "id": "news-228f14c7231b",
+    "title": "Phí quản lý chung cư có tăng sau khi TPHCM nâng khung giá mới?",
+    "summary": "(Dân trí) - UBND TPHCM vừa ban hành khung giá quản lý chung cư mới, có mức tối đa 13.700 đồng/m2/tháng. Quy định này khiến nhiều cư dân lo ngại phí sinh hoạt tăng.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/phi-quan-ly-chung-cu-co-tang-sau-khi-tphcm-nang-khung-gia-moi-20261112105211767.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-12",
+    "scrapedAt": "2026-11-13T10:21:25+07:00"
+  },
+  {
+    "id": "news-656b5e3803e1",
+    "title": "Kinh tế phát triển tạo động lực cho thị trường bất động sản Tây Ninh",
+    "summary": "(Dân trí) - Sau sáp nhập với Long An, tỉnh Tây Ninh mới có diện tích 8.536,44km² và dân số hơn 3,25 triệu người. Quỹ đất rộng cùng lợi thế liên kết vùng tạo thêm dư địa phát triển kinh tế, mở ra triển vọng trở thành cực tăng trưởng mới phía tây TPHCM.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/kinh-te-phat-trien-tao-dong-luc-cho-thi-truong-bat-dong-san-tay-ninh-20261112095547699.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-12",
+    "scrapedAt": "2026-11-13T10:21:25+07:00"
+  },
+  {
+    "id": "news-d1b4abd13d45",
+    "title": "Kinh tế tăng trưởng tạo dư địa phát triển không gian đô thị Tây Ninh",
+    "summary": "Động lực từ công nghiệp, logistics, du lịch và hạ tầng liên vùng đang mở rộng không gian phát triển đô thị, từ đó góp phần thúc đẩy nhu cầu nhà ở tại Tây Ninh.",
+    "sourceUrl": "https://vnexpress.net/kinh-te-tang-truong-tao-du-dia-phat-trien-khong-gian-do-thi-tay-ninh-5143707.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-12",
+    "scrapedAt": "2026-11-13T10:21:21+07:00"
+  },
+  {
     "id": "news-687d2c2277f5",
     "title": "Quảng Trị ra văn bản khẩn sau khi 40 giếng khoan 'mọc' lên ở khu vực mở rộng quốc lộ 9",
     "summary": "UBND tỉnh Quảng Trị yêu cầu siết quản lý đất đai, trật tự xây dựng tại các dự án giao thông, tránh trường hợp xây dựng để trục lợi đền bù khi hàng chục giếng khoan xuất hiện bất thường dọc quốc lộ 9.",
@@ -728,75 +798,5 @@
     "category": "Chính sách mới",
     "publishedDate": "2026-11-06",
     "scrapedAt": "2026-11-07T09:39:12+07:00"
-  },
-  {
-    "id": "news-9511072c095c",
-    "title": "Luật sư đề nghị trả xe Porsche và hơn 110 món trang sức cho bạn gái Mr Pips",
-    "summary": "(Dân trí) - Luật sư của Nguyễn Thanh Tâm (bạn gái Mr Pips) đề nghị HĐXX trả lại xe Porsche, 114 món trang sức cùng nhiều bất động sản cho bị cáo với lý do số tài sản này không phải mua bằng tiền phạm tội.",
-    "sourceUrl": "https://dantri.com.vn/phap-luat/luat-su-de-nghi-tra-xe-porsche-va-hon-110-mon-trang-suc-cho-ban-gai-mr-pips-20261106141112570.htm",
-    "sourceName": "Báo Dân Trí - Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-06",
-    "scrapedAt": "2026-11-07T09:39:12+07:00"
-  },
-  {
-    "id": "news-0e6ac56964b1",
-    "title": "Nhà xã hội của Sun Group ở Đà Nẵng có giá 6,4 triệu mỗi m2",
-    "summary": "Hơn trăm căn hộ Sun Home sắp mở bán với giá gần 6,4 triệu đồng mỗi m2, dành cho người dân thuộc diện di dời từ 3 khu chung cư cũ tại Đà Nẵng.",
-    "sourceUrl": "https://vnexpress.net/nha-xa-hoi-cua-sun-group-o-da-nang-co-gia-6-4-trieu-moi-m2-5141512.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-06",
-    "scrapedAt": "2026-11-07T09:39:10+07:00"
-  },
-  {
-    "id": "news-3d3ae8cb3312",
-    "title": "Quỹ đất hạn chế thu hẹp nguồn cung căn hộ nội đô",
-    "summary": "Quy hoạch đô thị đa trung tâm thúc đẩy nguồn cung căn hộ mới dịch chuyển ra các khu vực mở rộng, trong khi dự án tại vùng lõi ngày càng khan hiếm, khiến thị trường căn hộ Hà Nội phân hóa.",
-    "sourceUrl": "https://vnexpress.net/quy-dat-han-che-thu-hep-nguon-cung-can-ho-noi-do-5141631.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-06",
-    "scrapedAt": "2026-11-07T09:39:10+07:00"
-  },
-  {
-    "id": "news-69d9003b2cec",
-    "title": "Kinh nghiệm quốc tế của liên doanh Nhật tại TT Genesis",
-    "summary": "Ba đối tác Nhật Cosmos Initia, Hinokiya Group và Koterasu Group cùng phát triển TT Genesis trên nền tảng kinh nghiệm thiết kế nhà ở, lựa chọn vị trí và hoạch định tài chính tại các thị trường quốc tế.",
-    "sourceUrl": "https://vnexpress.net/kinh-nghiem-quoc-te-cua-lien-doanh-nhat-tai-tt-genesis-5141231.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-06",
-    "scrapedAt": "2026-11-07T09:39:10+07:00"
-  },
-  {
-    "id": "news-3a12fd1483c4",
-    "title": "Luật sư xin cho bố mẹ Mr Pips hưởng án treo, nhận lại loạt tài sản",
-    "summary": "Luật sư cho rằng bố mẹ Mr Pips không biết tiền của con có nguồn gốc phạm tội, đề nghị cho họ hưởng án treo và trả lại 40 tỷ đồng, 34 cây vàng và 9 bất động sản.",
-    "sourceUrl": "https://vnexpress.net/luat-su-xin-cho-bo-me-mr-pips-huong-an-treo-nhan-lai-loat-tai-san-5141625.html",
-    "sourceName": "VnExpress Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-06",
-    "scrapedAt": "2026-11-07T09:39:08+07:00"
-  },
-  {
-    "id": "news-82cb27c3df7a",
-    "title": "Vụ lừa đảo dự án Anh Dũng 4: 40 sổ đỏ bị thế chấp ngân hàng",
-    "summary": "Mở rộng điều tra vụ án lừa đảo dự án Anh Dũng 4 tại Hải Phòng liên quan 40 sổ đỏ bị thế chấp ngân hàng, cơ quan công an đã 5 lần thông báo tìm người mua đất để phục vụ điều tra.",
-    "sourceUrl": "https://thanhnien.vn/vu-lua-dao-du-an-anh-dung-4-40-so-do-bi-the-chap-ngan-hang-185261106084527747.htm",
-    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-06",
-    "scrapedAt": "2026-11-06T10:20:51+07:00"
-  },
-  {
-    "id": "news-6a32c17880a3",
-    "title": "Bác sĩ tốt nghiệp theo đặt hàng, trúng tuyển nghĩa vụ quân sự có phải bồi thường kinh phí đào tạo?",
-    "summary": "Trong trường hợp có quyết định gọi nhập ngũ chính thức, người dân cần cung cấp quyết định này cùng các tài liệu liên quan để đề nghị cơ quan nhà nước có thẩm quyền xem xét miễn chi phí bồi hoàn theo quy định.",
-    "sourceUrl": "https://tuoitre.vn/bac-si-tot-nghiep-theo-dat-hang-trung-tuyen-nghia-vu-quan-su-co-phai-boi-thuong-kinh-phi-dao-tao-100261105125603005.htm",
-    "sourceName": "Tuổi Trẻ Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-06",
-    "scrapedAt": "2026-11-06T10:20:50+07:00"
   }
 ]
