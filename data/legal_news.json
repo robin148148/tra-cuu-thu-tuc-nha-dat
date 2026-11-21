@@ -1,5 +1,135 @@
 [
   {
+    "id": "news-c25b1bc3c250",
+    "title": "Đô thị 15 phút - thước đo mới cho các đô thị tiện ích \"all-in-one\"",
+    "summary": "(Dân trí) - Hà Nội đang tổ chức lấy ý kiến cơ quan, tổ chức, cá nhân và cộng đồng dân cư về hồ sơ quy hoạch phương án tuyến và vị trí nhà ga tỷ lệ 1/500 của 5 tuyến đường sắt đô thị.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/do-thi-15-phut-thuoc-do-moi-cho-cac-do-thi-tien-ich-all-in-one-20261120215930784.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-21",
+    "scrapedAt": "2026-11-21T10:52:55+07:00"
+  },
+  {
+    "id": "news-bab939fd20b3",
+    "title": "Điện gió sai phạm đất đai, nợ thuế, dừng chạy hơn 1,5 năm, sở ngành vẫn chưa làm rõ trách nhiệm",
+    "summary": "Hai nhà máy điện gió Hướng Linh 1 và Hướng Linh 2 dựng tuabin ngoài đất được giao, dừng chạy hơn 1,5 năm và nợ thuế hơn 17 tỉ đồng, nhưng các sở ngành vẫn chưa làm rõ trách nhiệm dù Tỉnh ủy Quảng Trị đã yêu cầu từ cuối năm 2024.",
+    "sourceUrl": "https://tuoitre.vn/dien-gio-sai-pham-dat-dai-no-thue-dung-chay-hon-15-nam-so-nganh-van-chua-lam-ro-trach-nhiem-100261120085915945.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Thuế - Phí",
+    "publishedDate": "2026-11-21",
+    "scrapedAt": "2026-11-21T10:52:55+07:00"
+  },
+  {
+    "id": "news-8940a4653efc",
+    "title": "Chốt mức đặt trước tối đa 50% giá khởi điểm khi đấu giá đất ở cá nhân",
+    "summary": "Tiền đặt trước khi đấu giá quyền sử dụng đất để giao đất ở cho cá nhân có thể lên tới 50% giá khởi điểm.",
+    "sourceUrl": "https://tuoitre.vn/chot-muc-dat-truoc-toi-da-50-gia-khoi-diem-khi-dau-gia-dat-o-ca-nhan-100261120092703108.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-21",
+    "scrapedAt": "2026-11-21T10:52:55+07:00"
+  },
+  {
+    "id": "news-ffb6308ceaf3",
+    "title": "Những màn đối đáp làm \"nóng\" phiên xét xử ông Lê Thanh Thản",
+    "summary": "(Dân trí) - Trước hàng loạt lập luận bào chữa cho ông Lê Thanh Thản về hành vi lừa dối khách hàng, tiền thu lợi bất chính và bồi thường, đại diện Viện kiểm sát đã đưa ra những quan điểm phản bác.",
+    "sourceUrl": "https://dantri.com.vn/phap-luat/nhung-man-doi-dap-lam-nong-phien-xet-xu-ong-le-thanh-than-20261120211009471.htm",
+    "sourceName": "Báo Dân Trí - Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-21",
+    "scrapedAt": "2026-11-21T10:52:53+07:00"
+  },
+  {
+    "id": "news-f49cae12ba13",
+    "title": "Có nên ứng trước 80% tiền mua căn hộ để giải chấp cho chủ nhà?",
+    "summary": "Tôi phân vân có nên ứng trước 4 tỷ đồng để chủ nhà tất toán khoản vay với ngân hàng xong mới đi công chứng.",
+    "sourceUrl": "https://vnexpress.net/co-nen-ung-truoc-80-tien-mua-can-ho-de-giai-chap-cho-chu-nha-5146608.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-21",
+    "scrapedAt": "2026-11-21T10:52:51+07:00"
+  },
+  {
+    "id": "news-7a59860c7fe5",
+    "title": "InterCentral hưởng lợi từ quy hoạch đô thị 15 phút của Hà Nội",
+    "summary": "Quy hoạch metro và định hướng phát triển đô thị 15 phút tại Hà Nội mở ra cơ hội để InterCentral khai thác lợi thế kết nối giao thông và hệ thống tiện ích đô thị.",
+    "sourceUrl": "https://vnexpress.net/intercentral-huong-loi-tu-quy-hoach-do-thi-15-phut-cua-ha-noi-5147242.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-21",
+    "scrapedAt": "2026-11-21T10:52:51+07:00"
+  },
+  {
+    "id": "news-fd2a4df5d555",
+    "title": "Thanh tra tỉnh Lâm Đồng chỉ ra nhiều sai phạm tại xã Nghị Đức",
+    "summary": "Thanh tra tỉnh Lâm Đồng phát hiện nhiều sai phạm trong quản lý đất đai, đấu giá đất công ích, đầu tư xây dựng và sử dụng ngân sách tại xã Nghị Đức, với số tiền kiến nghị thu hồi hơn 737 triệu đồng.",
+    "sourceUrl": "https://thanhnien.vn/thanh-tra-tinh-lam-dong-chi-ra-nhieu-sai-pham-tai-xa-nghi-duc-185261120151458062.htm",
+    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-20",
+    "scrapedAt": "2026-11-21T10:52:57+07:00"
+  },
+  {
+    "id": "news-3d6337b35696",
+    "title": "Cơ chế mới tại Hà Nội: Dự án nhà ở cho thuê có thể được giao trực tiếp",
+    "summary": "(Dân trí) - Hà Nội ban hành quy định về giao chủ đầu tư dự án nhà ở cho thuê không sử dụng vốn đầu tư công, trong đó có trường hợp chấp thuận chủ trương đầu tư đồng thời giao chủ đầu tư.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/co-che-moi-tai-ha-noi-du-an-nha-o-cho-thue-co-the-duoc-giao-truc-tiep-20261120143544240.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-20",
+    "scrapedAt": "2026-11-21T10:52:55+07:00"
+  },
+  {
+    "id": "news-ed9f8fda556b",
+    "title": "Newtown Diamond đón nhịp hạ tầng mới trên trục Đà Nẵng - Hội An",
+    "summary": "(Dân trí) - Nằm trên trục ven biển Trường Sa - tuyến giao thông quan trọng trong Quy hoạch chung của Đà Nẵng, kết nối đô thị biển với di sản Hội An, Newtown Diamond có lợi thế vị trí cùng khả năng tiếp cận những động lực phát triển mới của thành phố.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/newtown-diamond-don-nhip-ha-tang-moi-tren-truc-da-nang-hoi-an-20261120103657641.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Thừa kế",
+    "publishedDate": "2026-11-20",
+    "scrapedAt": "2026-11-21T10:52:55+07:00"
+  },
+  {
+    "id": "news-29a8a0d267d0",
+    "title": "Cư dân CT6 phản bác quan điểm bồi thường \"cao quá\" của ông Lê Thanh Thản",
+    "summary": "(Dân trí) - Trước quan điểm cho rằng mức bồi thường căn hộ tại CT6 Kiến Hưng \"cao quá\" của ông Lê Thanh Thản, tại tòa một cư dân đã phản bác và cho rằng người mua nhà chịu nhiều thiệt thòi nay còn phải di dời.",
+    "sourceUrl": "https://dantri.com.vn/phap-luat/cu-dan-ct6-phan-bac-quan-diem-boi-thuong-cao-qua-cua-ong-le-thanh-than-20261120181543354.htm",
+    "sourceName": "Báo Dân Trí - Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-20",
+    "scrapedAt": "2026-11-21T10:52:53+07:00"
+  },
+  {
+    "id": "news-4bc8325bce84",
+    "title": "Vì sao 5 cựu cán bộ không phải bồi thường cùng ông Lê Thanh Thản?",
+    "summary": "(Dân trí) - Cơ quan công tố cho biết hành vi thiếu trách nhiệm của 5 cựu cán bộ chỉ gián tiếp gây ra hậu quả tại dự án CT6 Kiến Hưng nên không có căn cứ buộc họ liên đới bồi thường cùng ông Lê Thanh Thản.",
+    "sourceUrl": "https://dantri.com.vn/phap-luat/vi-sao-5-cuu-can-bo-khong-phai-boi-thuong-cung-ong-le-thanh-than-20261120104712098.htm",
+    "sourceName": "Báo Dân Trí - Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-20",
+    "scrapedAt": "2026-11-21T10:52:53+07:00"
+  },
+  {
+    "id": "news-23092deb3c5b",
+    "title": "Lâm Đồng quy hoạch khu đô thị lấn biển 400 ha",
+    "summary": "Tỉnh Lâm Đồng duyệt quy hoạch chung hai phường Phước Hội và La Gi đến năm 2050, trong đó dành 400 ha lấn biển để phát triển đô thị đa chức năng và kinh tế biển.",
+    "sourceUrl": "https://vnexpress.net/lam-dong-quy-hoach-khu-do-thi-lan-bien-400-ha-5147215.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-20",
+    "scrapedAt": "2026-11-21T10:52:51+07:00"
+  },
+  {
+    "id": "news-84ec7040f54b",
+    "title": "Bị hại phản đối quan điểm 'hạnh phúc, hài lòng' ở chung cư không sổ đỏ của ông Thản",
+    "summary": "Cho rằng việc được ở lại CT6 Kiến Hưng là nhờ chính sách của Hà Nội, không phải ân huệ của ông Lê Thanh Thản, cư dân phản bác việc luật sư của bị cáo nói họ đang hạnh phúc, hài lòng với cuộc sống tiện nghi tại đây.",
+    "sourceUrl": "https://vnexpress.net/bi-hai-phan-doi-quan-diem-hanh-phuc-hai-long-o-chung-cu-khong-so-do-cua-ong-than-5146867.html",
+    "sourceName": "VnExpress Pháp Luật",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-20",
+    "scrapedAt": "2026-11-21T10:52:50+07:00"
+  },
+  {
     "id": "news-c6ee37c3db49",
     "title": "Bị hại vụ ông Lê Thanh Thản: Nếu hiểu nỗi khổ của cư dân 13 năm qua, đừng nói giá 56 triệu đồng/m² là cao",
     "summary": "Một bị hại phải di dời khỏi chung cư CT6C liên quan vụ ông Lê Thanh Thản bày tỏ, nếu thấu hiểu những thiệt thòi người dân phải chịu suốt 13 năm qua, có lẽ phía bào chữa không nên đặt vấn đề như vậy.",
@@ -668,135 +798,5 @@
     "category": "Thuế - Phí",
     "publishedDate": "2026-11-17",
     "scrapedAt": "2026-11-17T12:00:39+07:00"
-  },
-  {
-    "id": "news-9b1a108b62ab",
-    "title": "Mua bán nhà đất ở tỉnh này, có thể công chứng tại tỉnh khác từ khi nào?",
-    "summary": "(Dân trí) - Từ ngày 31/12/2028, giao dịch nhà đất dự kiến được công chứng trên toàn quốc thay vì giới hạn theo địa bàn như hiện nay, với điều kiện các cơ sở dữ liệu liên quan vận hành đồng bộ.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/mua-ban-nha-dat-o-tinh-nay-co-the-cong-chung-tai-tinh-khac-tu-khi-nao-20261117091511261.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-17",
-    "scrapedAt": "2026-11-17T12:00:38+07:00"
-  },
-  {
-    "id": "news-2b08dbf76517",
-    "title": "Hàng trăm căn hộ tập thể cũ sắp giải tỏa để mở rộng quốc lộ 1A qua Hà Nội",
-    "summary": "(Dân trí) - Để phục vụ dự án mở rộng quốc lộ 1A, nhiều khu nhà ở tập thể cũ dọc trục đường Giải Phóng (TP Hà Nội) sẽ phải cắt xén một phần hoặc phá dỡ toàn bộ để thi công dự án.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/hang-tram-can-ho-tap-the-cu-sap-giai-toa-de-mo-rong-quoc-lo-1a-qua-ha-noi-20261117000224666.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-17",
-    "scrapedAt": "2026-11-17T12:00:38+07:00"
-  },
-  {
-    "id": "news-cd37cbdf4807",
-    "title": "Bất động sản Trung Quốc: Đà giảm giá nhà chậm lại",
-    "summary": "(Dân trí) - Giá nhà mới tại Trung Quốc trong tháng 10 giảm 2,4% so với cùng kỳ, mức giảm thấp nhất trong gần một năm. Tuy nhiên, tín hiệu ổn định mới chỉ xuất hiện ở một số thành phố lớn.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/bat-dong-san-trung-quoc-da-giam-gia-nha-cham-lai-20261116142653875.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-17",
-    "scrapedAt": "2026-11-17T12:00:38+07:00"
-  },
-  {
-    "id": "news-d191d733ecdb",
-    "title": "Từ cuộc sống xa hoa, tiêu tiền đô, đi siêu xe đến án chung thân của Mr Pips",
-    "summary": "(Dân trí) - Trước khi bị tuyên án tù chung thân về các tội Lừa đảo chiếm đoạt tài sản và Rửa tiền, Phó Đức Nam (tức Mr Pips) từng sở hữu khối tài sản khổng lồ, nhiều tiền, vàng, siêu xe và bất động sản.",
-    "sourceUrl": "https://dantri.com.vn/phap-luat/tu-cuoc-song-xa-hoa-tieu-tien-do-di-sieu-xe-den-an-chung-than-cua-mr-pips-20261117064533473.htm",
-    "sourceName": "Báo Dân Trí - Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-17",
-    "scrapedAt": "2026-11-17T12:00:36+07:00"
-  },
-  {
-    "id": "news-68a1da8230b9",
-    "title": "Ngôi nhà ở Campuchia mở sân vườn đón gió sông Mekong",
-    "summary": "Công trình tại Phnom Penh giữ lại cây xanh sẵn có, ưu tiên ánh sáng tự nhiên và chọn màu sắc, vật liệu theo cảnh quan ven sông.",
-    "sourceUrl": "https://vnexpress.net/ngoi-nha-o-campuchia-mo-san-vuon-don-gio-song-mekong-5144729.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-17",
-    "scrapedAt": "2026-11-17T12:00:34+07:00"
-  },
-  {
-    "id": "news-0608523d7877",
-    "title": "Van Phuc Group dành căn hộ gần 8 tỷ tặng người mua Diamond Sky",
-    "summary": "Người mua căn hộ Diamond Sky có cơ hội trúng thêm bất động sản gần 8 tỷ đồng, đồng thời tiếp cận hệ tiện ích tích hợp tại Van Phuc City.",
-    "sourceUrl": "https://vnexpress.net/van-phuc-group-danh-can-ho-gan-8-ty-tang-nguoi-mua-diamond-sky-5145271.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-17",
-    "scrapedAt": "2026-11-17T12:00:34+07:00"
-  },
-  {
-    "id": "news-c6756512b492",
-    "title": "Bắt Tổng giám đốc Công ty Redeyes lừa đảo gần 34 tỉ đồng để chơi 'vàng ảo'",
-    "summary": "Công an TP.HCM khởi tố, bắt giam Thái Thị Thu Đào (Tổng giám đốc Công ty Redeyes) về hành vi lừa đảo chiếm đoạt tài sản. Đào dựng lên các dự án bất động sản \"ma\" và huy động vốn đầu tư để lấy tiền nướng vào các sàn vàng ảo quốc tế, chiếm đoạt gần 34 tỉ đồng.",
-    "sourceUrl": "https://thanhnien.vn/bat-tong-giam-doc-cong-ty-redeyes-lua-dao-gan-34-ti-dong-de-choi-vang-ao-185261116172933805.htm",
-    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-16",
-    "scrapedAt": "2026-11-17T12:00:41+07:00"
-  },
-  {
-    "id": "news-a7250c949768",
-    "title": "Bất động sản Trung Quốc: Giá tiếp tục trượt, người mua né nhà trên giấy",
-    "summary": "(Dân trí) - Dù liên tục được hỗ trợ, thị trường bất động sản Trung Quốc vẫn chưa thoát đà giảm giá. Người mua ngày càng ưu tiên nhà đã hoàn thiện để hạn chế rủi ro chậm bàn giao.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/bat-dong-san-trung-quoc-gia-tiep-tuc-truot-nguoi-mua-ne-nha-tren-giay-20261116143427551.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-16",
-    "scrapedAt": "2026-11-17T12:00:38+07:00"
-  },
-  {
-    "id": "news-566c002e7283",
-    "title": "Đề xuất mới về nhà ở xã hội, chuyên gia lo người mua khó vay vốn",
-    "summary": "(Dân trí) - Đề xuất chỉ cho phép bán lại nhà ở xã hội sau 5 năm cho người đủ điều kiện mua nhằm hạn chế nguy cơ lợi dụng chính sách, song có thể phát sinh vướng mắc về tín dụng, định giá và thủ tục chuyển nhượng.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/de-xuat-moi-ve-nha-o-xa-hoi-chuyen-gia-lo-nguoi-mua-kho-vay-von-20261116110242029.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-16",
-    "scrapedAt": "2026-11-17T12:00:38+07:00"
-  },
-  {
-    "id": "news-44111185026c",
-    "title": "Số phận hàng loạt siêu xe và bất động sản của Mr Pips",
-    "summary": "(Dân trí) - Hội đồng xét xử sơ thẩm quyết định tiếp tục tạm giữ 35 ô tô, nhiều tài sản hàng hiệu và kê biên phần lớn trong 74 bất động sản của Mr Pips để bảo đảm thi hành án.",
-    "sourceUrl": "https://dantri.com.vn/phap-luat/so-phan-hang-loat-sieu-xe-va-bat-dong-san-cua-mr-pips-20261116180401429.htm",
-    "sourceName": "Báo Dân Trí - Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-16",
-    "scrapedAt": "2026-11-17T12:00:36+07:00"
-  },
-  {
-    "id": "news-0a2433dd84ea",
-    "title": "Người phụ nữ ở TPHCM dựng kịch bản, huy động 1.340 tỷ đồng đầu tư vàng ảo",
-    "summary": "(Dân trí) - Đầu tư vàng ảo thua lỗ, Đào đưa ra thông tin gian dối về việc mua bán bất động sản, huy động được hơn 1.340 tỷ đồng. Bị can trả gần 1.300 tỷ đồng cho các bị hại và chiếm đoạt hàng chục tỷ đồng.",
-    "sourceUrl": "https://dantri.com.vn/phap-luat/nguoi-phu-nu-o-tphcm-dung-kich-ban-huy-dong-1340-ty-dong-dau-tu-vang-ao-20261116181030499.htm",
-    "sourceName": "Báo Dân Trí - Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-16",
-    "scrapedAt": "2026-11-17T12:00:36+07:00"
-  },
-  {
-    "id": "news-5d518257a530",
-    "title": "Mr Pips và Mr Hunter phải đền bù bao nhiêu tiền cho các bị hại?",
-    "summary": "(Dân trí) - Sau khi đối trừ số tiền các bị hại đã nhận, HĐXX buộc bị cáo Phó Đức Nam phải bồi thường 822 tỷ đồng, bị cáo Lê Khắc Ngọ phải bồi thường 510 tỷ đồng.",
-    "sourceUrl": "https://dantri.com.vn/phap-luat/mr-pips-va-mr-hunter-phai-den-bu-bao-nhieu-tien-cho-cac-bi-hai-20261116164221756.htm",
-    "sourceName": "Báo Dân Trí - Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-16",
-    "scrapedAt": "2026-11-17T12:00:36+07:00"
-  },
-  {
-    "id": "news-aead64aed4e6",
-    "title": "TP HCM dự kiến chuyển hơn 341 ha đất lúa làm nhà ở thương mại",
-    "summary": "Trong 147 khu đất được chấp thuận thí điểm phát triển nhà ở thương mại, diện tích đất trồng lúa dự kiến chuyển mục đích chiếm gần 40% tổng quỹ đất, tương đương 341 ha.",
-    "sourceUrl": "https://vnexpress.net/tp-hcm-du-kien-chuyen-hon-341-ha-dat-lua-lam-nha-o-thuong-mai-5145381.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-16",
-    "scrapedAt": "2026-11-17T12:00:34+07:00"
   }
 ]
