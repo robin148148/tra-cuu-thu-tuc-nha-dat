@@ -1,5 +1,115 @@
 [
   {
+    "id": "news-220ba67eaced",
+    "title": "Cháy sân thượng căn nhà ở phường Tân Định, nhiều tài sản bị thiêu rụi",
+    "summary": "Sáng 23-11, một đám cháy lớn xuất phát từ sân thượng căn nhà trên đường Trần Quang Khải, phường Tân Định, TP.HCM khiến nhiều tài sản bị thiêu rụi.",
+    "sourceUrl": "https://tuoitre.vn/chay-san-thuong-can-nha-o-phuong-tan-dinh-nhieu-tai-san-bi-thieu-rui-100261123075131314.htm",
+    "sourceName": "Tuổi Trẻ Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-23",
+    "scrapedAt": "2026-11-23T10:39:23+07:00"
+  },
+  {
+    "id": "news-505d4f420929",
+    "title": "Le Jardin, ParkCity Hanoi được vinh danh tại giải thưởng bất động sản The Edge Malaysia 2026",
+    "summary": "(Dân trí) - Giải thưởng “Outstanding Overseas Project” (Dự án nước ngoài xuất sắc) ghi nhận những giá trị nổi bật của Le Jardin trong quy hoạch, kiến trúc và định hướng phát triển đô thị bền vững mà ParkCity Group theo đuổi tại Việt Nam.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/le-jardin-parkcity-hanoi-duoc-vinh-danh-tai-giai-thuong-bat-dong-san-the-edge-malaysia-2026-20261121114934701.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-23",
+    "scrapedAt": "2026-11-23T10:39:22+07:00"
+  },
+  {
+    "id": "news-131e8120d031",
+    "title": "Xét xử ông Lê Thanh Thản: Từ lời nhận sai đến tranh cãi tiền bồi thường",
+    "summary": "(Dân trí) - Thừa nhận xây sai quy hoạch và xin lỗi người mua nhà, tuy nhiên \"đại gia điếu cày\" Lê Thanh Thản cho rằng mức bồi thường \"cao quá\" và đề nghị HĐXX xem xét lại.",
+    "sourceUrl": "https://dantri.com.vn/phap-luat/xet-xu-ong-le-thanh-than-tu-loi-nhan-sai-den-tranh-cai-tien-boi-thuong-20261122214146933.htm",
+    "sourceName": "Báo Dân Trí - Pháp Luật",
+    "category": "Chính sách mới",
+    "publishedDate": "2026-11-23",
+    "scrapedAt": "2026-11-23T10:39:20+07:00"
+  },
+  {
+    "id": "news-8a7d89f70742",
+    "title": "Căn hộ chung cư được cho thuê lưu trú",
+    "summary": "Luật Nhà ở sửa đổi cho phép sử dụng chung cư để cho thuê lưu trú, tạo hành lang pháp lý với hoạt động lưu trú ngắn hạn tại dự án căn hộ.",
+    "sourceUrl": "https://vnexpress.net/can-ho-chung-cu-duoc-cho-thue-luu-tru-5147754.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-23",
+    "scrapedAt": "2026-11-23T10:39:19+07:00"
+  },
+  {
+    "id": "news-9a14e40ec0dc",
+    "title": "AHA Việt Nam phát triển đô thị du lịch tại Tây Ninh",
+    "summary": "The Heritage Tay Ninh rộng 49,86 ha được quy hoạch là khu đô thị du lịch đồng bộ, chú trọng không gian xanh, giáo dục và giải trí, cùng hệ thống hạ tầng hiện đại.",
+    "sourceUrl": "https://vnexpress.net/aha-viet-nam-phat-trien-do-thi-du-lich-tai-tay-ninh-5147615.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-23",
+    "scrapedAt": "2026-11-23T10:39:19+07:00"
+  },
+  {
+    "id": "news-7c51d245fd31",
+    "title": "Khu kinh tế Vân Phong có gì đặc biệt?",
+    "summary": "(Dân trí) - Bộ Chính trị vừa đồng ý chủ trương thành lập Khu kinh tế đặc biệt Vân Phong. Đây là khu kinh tế rộng khoảng 150.000ha, được quy hoạch phát triển cảng biển quốc tế, đô thị, du lịch, dịch vụ logistics..",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/khu-kinh-te-van-phong-co-gi-dac-biet-20261122151332513.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-22",
+    "scrapedAt": "2026-11-23T10:39:22+07:00"
+  },
+  {
+    "id": "news-d32c42f7b92a",
+    "title": "Giá căn hộ Hà Nội vượt TPHCM, người mua nhà đứng trước lựa chọn khó",
+    "summary": "(Dân trí) - Giá căn hộ Hà Nội tăng 122,8% sau 3 năm, vượt TPHCM, nhưng nguồn cung mới nghiêng về phân khúc giá cao, khiến người mua nhà thêm áp lực về khả năng chi trả. Tại TPHCM, mức độ quan tâm chung cư giảm.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/gia-can-ho-ha-noi-vuot-tphcm-nguoi-mua-nha-dung-truoc-lua-chon-kho-20261122160531515.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-22",
+    "scrapedAt": "2026-11-23T10:39:22+07:00"
+  },
+  {
+    "id": "news-9868a7cbc3a7",
+    "title": "Người bị thu hồi đất được bồi thường, tái định cư ra sao theo luật mới?",
+    "summary": "(Dân trí) - Luật Đất đai mới quy định các hình thức bồi thường, bố trí tái định cư khi Nhà nước thu hồi đất, đồng thời bổ sung cơ chế hỗ trợ phục hồi sinh kế cho người dân.",
+    "sourceUrl": "https://dantri.com.vn/bat-dong-san/nguoi-bi-thu-hoi-dat-duoc-boi-thuong-tai-dinh-cu-ra-sao-theo-luat-moi-20261122144643680.htm",
+    "sourceName": "Báo Dân Trí - Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-22",
+    "scrapedAt": "2026-11-23T10:39:22+07:00"
+  },
+  {
+    "id": "news-e635e144a187",
+    "title": "Giá bồi thường đất dự án rạch Ông Bé cao nhất 222 triệu đồng mỗi m2",
+    "summary": "TP HCM chốt giá bồi thường đất dự án rạch Ông Bé cao nhất hơn 222 triệu đồng mỗi m2, cao hơn 138% so với bảng giá đất hiện hành.",
+    "sourceUrl": "https://vnexpress.net/gia-boi-thuong-dat-du-an-rach-ong-be-cao-nhat-222-trieu-dong-moi-m2-5147562.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Thuế - Phí",
+    "publishedDate": "2026-11-22",
+    "scrapedAt": "2026-11-23T10:39:19+07:00"
+  },
+  {
+    "id": "news-e0b8acbad559",
+    "title": "Nhà thổ cư khó chốt giao dịch khi người mua ngại rủi ro quy hoạch",
+    "summary": "Chuẩn bị xuống tiền khi đã đi đến bước thương lượng giá, chị Hiền quay xe phút chót khi có thông tin căn nhà riêng nằm trong ranh quy hoạch đề xuất dự án TOD.",
+    "sourceUrl": "https://vnexpress.net/nha-tho-cu-kho-chot-giao-dich-khi-nguoi-mua-ngai-rui-ro-quy-hoach-5146020.html",
+    "sourceName": "VnExpress Bất Động Sản",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-22",
+    "scrapedAt": "2026-11-23T10:39:19+07:00"
+  },
+  {
+    "id": "news-f1b5eccb8543",
+    "title": "Hai người bị bắt sau phi vụ bán đất ở Phú Quốc lấy 16 tỷ đồng",
+    "summary": "Lê Thanh Tuấn bị cáo buộc biết không thể làm sổ đỏ thửa đất rừng ở Phú Quốc nhưng vẫn tìm cách làm giấy xác nhận nguồn gốc, lừa người mua lấy 16 tỷ đồng.",
+    "sourceUrl": "https://vnexpress.net/hai-nguoi-bi-bat-sau-phi-vu-ban-dat-o-phu-quoc-lay-16-ty-dong-5147610.html",
+    "sourceName": "VnExpress Pháp Luật",
+    "category": "Đất đai",
+    "publishedDate": "2026-11-22",
+    "scrapedAt": "2026-11-23T10:39:18+07:00"
+  },
+  {
     "id": "news-e840268e0bfb",
     "title": "Xây nhà không rác thải, biến gạch vỡ và kính cũ thành nhà mới",
     "summary": "(Dân trí) - Thay vì tốn tiền dọn xà bần và chôn lấp phế liệu, làn sóng xây dựng tuần hoàn đang biến gạch vỡ, kính cũ thành nhà mới, vừa hạ chi phí vừa mở ra cơ hội kinh doanh mới cho ngành bất động sản.",
@@ -688,115 +798,5 @@
     "category": "Đất đai",
     "publishedDate": "2026-11-18",
     "scrapedAt": "2026-11-19T11:04:01+07:00"
-  },
-  {
-    "id": "news-b76981cd5357",
-    "title": "Hải Phòng muốn làm hai khu lấn biển gần 300 ha ở Đồ Sơn",
-    "summary": "Tập đoàn BRG nghiên cứu phương án thiết kế quy hoạch kiến trúc tổng thể phường Đồ Sơn, trong đó có hai khu lấn biển phía đông và tây.",
-    "sourceUrl": "https://vnexpress.net/hai-phong-muon-lam-hai-khu-lan-bien-gan-300-ha-o-do-son-5146147.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-19T11:04:01+07:00"
-  },
-  {
-    "id": "news-51af0b3596a2",
-    "title": "Căn hộ thứ cấp tại TP HCM đua nhau giảm giá",
-    "summary": "Áp lực lãi vay thả nổi lên tới 15% mỗi năm sau thời gian ân hạn nợ gốc, nhiều chủ căn hộ thứ cấp (mua đi, bán lại) tại TP HCM đua nhau giảm giá chung cư để thoát hàng.",
-    "sourceUrl": "https://vnexpress.net/can-ho-thu-cap-tai-tp-hcm-dua-nhau-giam-gia-5143920.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-19T11:04:01+07:00"
-  },
-  {
-    "id": "news-988d32f2e99e",
-    "title": "River Terrace được chuyển hơn 2,5 ha đất nông nghiệp làm chung cư tại TP HCM",
-    "summary": "Công ty River Terrace được chuyển mục đích hơn 2,5 ha đất nông nghiệp tại phường Long Trường để phát triển khu chung cư phức hợp cao tầng quy mô hơn 4.083 tỷ đồng.",
-    "sourceUrl": "https://vnexpress.net/river-terrace-duoc-chuyen-hon-2-5-ha-dat-nong-nghiep-lam-chung-cu-tai-tp-hcm-5145923.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-19T11:04:01+07:00"
-  },
-  {
-    "id": "news-b2bcff0f73f2",
-    "title": "Không gian đô thị tích hợp 50 ha tại đô thị One Era",
-    "summary": "One Era quy mô gần 50 ha kỳ vọng thành điểm đến mới tại khu Đông Bắc nhờ quy hoạch tích hợp nhà ở với thương mại, giáo dục, y tế, giải trí.",
-    "sourceUrl": "https://vnexpress.net/khong-gian-do-thi-tich-hop-50-ha-tai-do-thi-one-era-5145925.html",
-    "sourceName": "VnExpress Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-19T11:04:01+07:00"
-  },
-  {
-    "id": "news-4c7dd70b0ad0",
-    "title": "5 cựu cán bộ khai 'không có trách nhiệm' trong vụ ông Thản xây chung cư sai phép",
-    "summary": "Bị xét xử vì không ngăn chặn sai phạm tại chung cư CT6 Kiến Hưng, 5 cựu cán bộ quận, phường đều cho rằng việc kiểm tra công trình không thuộc trách nhiệm của mình.",
-    "sourceUrl": "https://vnexpress.net/5-cuu-can-bo-khai-khong-co-trach-nhiem-trong-vu-ong-than-xay-chung-cu-sai-phep-5146236.html",
-    "sourceName": "VnExpress Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-19T11:04:00+07:00"
-  },
-  {
-    "id": "news-eacf6f84b987",
-    "title": "'Trùm bất động sản' ở TP HCM tiều tụy ra tòa trong vụ án thứ 6",
-    "summary": "Đang thụ án chung thân, Dương Thanh Cường tiếp tục ra tòa trong vụ án thứ 6, bị cáo buộc chiếm đoạt gần 72 tỷ đồng của ngân hàng, song phiên xử phải trả hồ sơ điều tra bổ sung.",
-    "sourceUrl": "https://vnexpress.net/trum-bat-dong-san-o-tp-hcm-tieu-tuy-ra-toa-trong-vu-an-thu-6-5146162.html",
-    "sourceName": "VnExpress Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-19T11:04:00+07:00"
-  },
-  {
-    "id": "news-f29a0910b0d4",
-    "title": "Ông Lê Thanh Thản: Không bị 'cán bộ nhắc nhở' khi xây chung cư sai phép",
-    "summary": "Thừa nhận việc tự ý chuyển đổi công năng, xây chui cả một tòa nhà \"là có sai, có gian dối\", ông Lê Thanh Thản khai không bị cán bộ địa phương nhắc nhở, chỉ động viên \"xây nhanh lên\".",
-    "sourceUrl": "https://vnexpress.net/ong-le-thanh-than-khong-bi-can-bo-nhac-nho-khi-xay-chung-cu-sai-phep-5146039.html",
-    "sourceName": "VnExpress Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-19T11:04:00+07:00"
-  },
-  {
-    "id": "news-ef911cc4c18e",
-    "title": "Ông Lê Thanh Thản đến tòa bằng xe sang",
-    "summary": "Ông Lê Thanh Thản đến tòa bằng chiếc MPV hạng sang Lexus LM, sẽ bị xét xử trong 13 ngày, liên quan đến cáo buộc 'lừa bán' 519 căn hộ không được cấp sổ đỏ.",
-    "sourceUrl": "https://thanhnien.vn/ong-le-thanh-than-den-toa-bang-xe-sang-185261118091543419.htm",
-    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-18T11:07:02+07:00"
-  },
-  {
-    "id": "news-438eb0a2d32a",
-    "title": "Đồng Nai xử lý dấu hiệu vi phạm xây dựng 15 thửa đất hồ Sông Ray",
-    "summary": "Phát hiện có dấu hiệu vi phạm đất đai, xây dựng tại hồ Sông Ray, Chủ tịch UBND thành phố Đồng Nai chỉ đạo UBND xã Sông Ray khẩn trương tổ chức kiểm tra, rà soát.",
-    "sourceUrl": "https://thanhnien.vn/dong-nai-xu-ly-dau-hieu-vi-pham-xay-dung-15-thua-dat-ho-song-ray-185261117221946597.htm",
-    "sourceName": "Báo Thanh Niên - Thời Sự Pháp Luật",
-    "category": "Chính sách mới",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-18T11:07:02+07:00"
-  },
-  {
-    "id": "news-811c44d895b7",
-    "title": "Vụ xây 'chui' chung cư: 'Đại gia điếu cày' Lê Thanh Thản sẽ hầu tòa 13 ngày",
-    "summary": "Ngày mai (18-11), sau hơn 3 năm điều tra bổ sung vụ án bán 519 căn hộ không đủ điều kiện cấp sổ đỏ thu lợi bất chính hơn 531 tỉ đồng, \"đại gia điếu cày\" Lê Thanh Thản sẽ hầu tòa dự kiến 13 ngày.",
-    "sourceUrl": "https://tuoitre.vn/vu-xay-chui-chung-cu-dai-gia-dieu-cay-le-thanh-than-se-hau-toa-13-ngay-10026111718372017.htm",
-    "sourceName": "Tuổi Trẻ Pháp Luật",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-18T11:07:00+07:00"
-  },
-  {
-    "id": "news-3691ee5eb87d",
-    "title": "Tập đoàn Sao Mai trao Giấy chứng nhận quyền sử dụng đất cho khách hàng mua đất nền",
-    "summary": "(Dân trí) - Chiều 15/11, tại trung tâm xã Triệu Sơn, tỉnh Thanh Hóa, Tập đoàn Sao Mai tổ chức lễ trao Giấy chứng nhận quyền sử dụng đất cho đại diện gần 300 khách hàng đã mua nền đất tại Khu đô thị mới Sao Mai Central Point trong giai đoạn 1.",
-    "sourceUrl": "https://dantri.com.vn/bat-dong-san/tap-doan-sao-mai-trao-giay-chung-nhan-quyen-su-dung-dat-cho-khach-hang-mua-dat-nen-20261117172332832.htm",
-    "sourceName": "Báo Dân Trí - Bất Động Sản",
-    "category": "Đất đai",
-    "publishedDate": "2026-11-18",
-    "scrapedAt": "2026-11-18T11:06:59+07:00"
   }
 ]
